@@ -1,0 +1,328 @@
+{
+  "task": "joint_fine9_shared",
+  "wavelengths_nm": [
+    1310,
+    1610
+  ],
+  "seed": 42,
+  "epochs": 20,
+  "best_epoch": 20,
+  "trainable_parameters": 1665,
+  "shared_structure": true,
+  "best_validation": {
+    "accuracy": 0.8007936507936508,
+    "ce": 0.882216215133667,
+    "mean_active_collection_fraction": 0.006778194569051266,
+    "mean_10port_collection_fraction": 0.01393226720392704
+  },
+  "final_validation": {
+    "accuracy": 0.8007936507936508,
+    "ce": 0.882216215133667,
+    "mean_active_collection_fraction": 0.006778194569051266,
+    "mean_10port_collection_fraction": 0.01393226720392704
+  },
+  "best_training": {
+    "accuracy": 0.8131944444444444,
+    "ce": 0.8560524582862854,
+    "mean_active_collection_fraction": 0.00688914256170392,
+    "mean_10port_collection_fraction": 0.014019942842423916
+  },
+  "same_structure_single_channel_ablations": {
+    "1310": {
+      "accuracy": 0.6825396825396826,
+      "ce": 1.074250340461731,
+      "mean_active_collection_fraction": 0.0042439913377165794,
+      "mean_10port_collection_fraction": 0.01081614475697279
+    },
+    "1610": {
+      "accuracy": 0.7722222222222223,
+      "ce": 0.9231042265892029,
+      "mean_active_collection_fraction": 0.009312399663031101,
+      "mean_10port_collection_fraction": 0.017048390582203865
+    }
+  },
+  "coarse_from_9ports_accuracy": 0.9071428571428571,
+  "classes": [
+    "n09193705_alp",
+    "n09468604_valley",
+    "n09472597_volcano",
+    "n09256479_coral_reef",
+    "n09332890_lakeside",
+    "n09428293_seashore",
+    "n03028079_church",
+    "n02980441_castle",
+    "n03661043_library"
+  ],
+  "confusion_matrix": [
+    [
+      79,
+      11,
+      24,
+      1,
+      2,
+      3,
+      12,
+      3,
+      5
+    ],
+    [
+      1,
+      124,
+      3,
+      6,
+      2,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      122,
+      2,
+      1,
+      2,
+      4,
+      1,
+      3
+    ],
+    [
+      4,
+      0,
+      3,
+      132,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      7,
+      1,
+      1,
+      97,
+      27,
+      0,
+      3,
+      2
+    ],
+    [
+      5,
+      3,
+      4,
+      5,
+      15,
+      104,
+      1,
+      0,
+      3
+    ],
+    [
+      2,
+      0,
+      4,
+      0,
+      0,
+      0,
+      117,
+      16,
+      1
+    ],
+    [
+      5,
+      2,
+      1,
+      2,
+      1,
+      1,
+      15,
+      113,
+      0
+    ],
+    [
+      1,
+      1,
+      3,
+      1,
+      0,
+      3,
+      9,
+      1,
+      121
+    ]
+  ],
+  "classification_report": {
+    "n09193705_alp": {
+      "precision": 0.7596153846153846,
+      "recall": 0.5642857142857143,
+      "f1-score": 0.6475409836065574,
+      "support": 140.0
+    },
+    "n09468604_valley": {
+      "precision": 0.8378378378378378,
+      "recall": 0.8857142857142857,
+      "f1-score": 0.8611111111111112,
+      "support": 140.0
+    },
+    "n09472597_volcano": {
+      "precision": 0.7393939393939394,
+      "recall": 0.8714285714285714,
+      "f1-score": 0.8,
+      "support": 140.0
+    },
+    "n09256479_coral_reef": {
+      "precision": 0.88,
+      "recall": 0.9428571428571428,
+      "f1-score": 0.9103448275862069,
+      "support": 140.0
+    },
+    "n09332890_lakeside": {
+      "precision": 0.8220338983050848,
+      "recall": 0.6928571428571428,
+      "f1-score": 0.751937984496124,
+      "support": 140.0
+    },
+    "n09428293_seashore": {
+      "precision": 0.7222222222222222,
+      "recall": 0.7428571428571429,
+      "f1-score": 0.7323943661971831,
+      "support": 140.0
+    },
+    "n03028079_church": {
+      "precision": 0.7358490566037735,
+      "recall": 0.8357142857142857,
+      "f1-score": 0.782608695652174,
+      "support": 140.0
+    },
+    "n02980441_castle": {
+      "precision": 0.8248175182481752,
+      "recall": 0.8071428571428572,
+      "f1-score": 0.8158844765342961,
+      "support": 140.0
+    },
+    "n03661043_library": {
+      "precision": 0.8962962962962963,
+      "recall": 0.8642857142857143,
+      "f1-score": 0.88,
+      "support": 140.0
+    },
+    "accuracy": 0.8007936507936508,
+    "macro avg": {
+      "precision": 0.8020073503914127,
+      "recall": 0.8007936507936508,
+      "f1-score": 0.7979802716870725,
+      "support": 1260.0
+    },
+    "weighted avg": {
+      "precision": 0.8020073503914127,
+      "recall": 0.8007936507936508,
+      "f1-score": 0.7979802716870725,
+      "support": 1260.0
+    }
+  },
+  "complex_matrix_normalized_fidelity": 0.6217238903045654,
+  "slot_min_um": 0.0,
+  "slot_max_um": 0.9463849663734436,
+  "elapsed_s": 38.08742420002818,
+  "whole_device_fdtd": false,
+  "experiment_config": {
+    "width_um": 500.0,
+    "gap_um": 125.0,
+    "gaps": 4,
+    "trainable_layers": 3,
+    "groups_per_layer": 555,
+    "group_pitch_um": 0.9,
+    "slot_pitch_um": 0.3,
+    "repeats": 3,
+    "slot_width_um": 0.15,
+    "grid_n": 10000,
+    "dy_um": 0.05,
+    "padding_factor": 2,
+    "input_centers_um": [
+      -90.0,
+      -78.0,
+      -66.0,
+      -54.0,
+      -42.0,
+      -30.0,
+      -18.0,
+      -6.0,
+      6.0,
+      18.0,
+      30.0,
+      42.0,
+      54.0,
+      66.0,
+      78.0,
+      90.0
+    ],
+    "input_width_um": 10.0,
+    "output_centers_um": [
+      -90.0,
+      -70.0,
+      -50.0,
+      -30.0,
+      -10.0,
+      10.0,
+      30.0,
+      50.0,
+      70.0,
+      90.0
+    ],
+    "output_width_um": 12.0,
+    "slot_bounds_um": [
+      0.0,
+      2.0
+    ],
+    "interpolation": "linear amplitude and unwrapped phase",
+    "epochs": 20,
+    "batch_size": 64,
+    "cpu_threads": 4,
+    "optimizer": "Adam",
+    "learning_rate": 0.0008,
+    "weight_decay": 0.0001,
+    "cosine_eta_min": 3e-05,
+    "gradient_clip": 1.0,
+    "input_noise_pi": 0.005,
+    "initialization": "0.5 um + Normal(0,0.02 um), matched across wavelengths",
+    "selection": "minimum validation CE among epochs with maximum validation accuracy",
+    "train_samples": 7200,
+    "val_samples": 1260,
+    "independent_test": false,
+    "task": "joint_fine9_shared",
+    "wavelengths_nm": [
+      1310,
+      1610
+    ],
+    "input_power_fractions": [
+      0.5,
+      0.5
+    ],
+    "total_input_power": 1.0,
+    "shared_structure": true,
+    "trainable_parameters": 1665,
+    "whole_device_fdtd": false,
+    "model": "calibrated scalar angular spectrum with analytic input/output modes",
+    "fusion": "physical intensity sum before nine-port normalization; no learned electronic readout",
+    "source_sha256": {
+      "comparison_1310_1610_scene3_20261016/run_joint_fine9.py": "f3251805cc8eb291adc6c685895105cd3431d20452e7cb1590a50a0f18417eee",
+      "comparison_1310_1610_scene3_20261016/run_comparison.py": "149158abc1c09df7a88c56b0adc95762a557095133a86bd7aef843a51f512114",
+      "comparison_1310_1610_scene3_20261016/resolved_grid10000/fine_encoded16.npz": "c75fe07845f3d830058904e4bb989125a1ce679069fd4b82317a1a36783cdee9",
+      "comparison_1310_1610_scene3_20261016/resolved_grid10000/fine_encoding.json": "1c776bd24014d278614e03b56083c77f7002bf50241f2c352df5ba0d0b144b29",
+      "feature_upgrade_20261011/diagnostics.json": "6937a07c5f93d84cfbb97f453d0faaef2e467b252dbfa10ed85efeec15a469e6",
+      "calibration_1310_1610nm_20261016/wl1310nm/calibration_response.npz": "b581ffec9861912540aceb5737414bd69fb66b46f52b1374054f78860e8512b7",
+      "calibration_1310_1610nm_20261016/wl1310nm/mode_probe.json": "1671bb56a29b13fae7551e36e919aed9bfa41f621b464609202a94c41f72ed3f",
+      "calibration_1310_1610nm_20261016/wl1610nm/calibration_response.npz": "400488fd0fd404c6ef9cb169154f28fa566523e9ce985146c9dd0014622546b8",
+      "calibration_1310_1610nm_20261016/wl1610nm/mode_probe.json": "0c1a039f4c549cb5bd39bf9eec9347839e0b44ea40fa46c9e0fe5d69ef9ae7de"
+    },
+    "software": {
+      "python": "3.13.9",
+      "torch": "2.9.0+cpu",
+      "numpy": "2.3.4",
+      "sklearn": "1.8.0"
+    }
+  }
+}

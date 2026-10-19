@@ -1,0 +1,104 @@
+{
+  "experiment": {
+    "width_um": 500.0,
+    "gap_um": 125.0,
+    "gaps": 4,
+    "trainable_layers": 3,
+    "groups_per_layer": 555,
+    "group_pitch_um": 0.9,
+    "slot_pitch_um": 0.3,
+    "repeats": 3,
+    "slot_width_um": 0.15,
+    "grid_n": 10000,
+    "dy_um": 0.05,
+    "padding_factor": 2,
+    "input_centers_um": [
+      -90.0,
+      -78.0,
+      -66.0,
+      -54.0,
+      -42.0,
+      -30.0,
+      -18.0,
+      -6.0,
+      6.0,
+      18.0,
+      30.0,
+      42.0,
+      54.0,
+      66.0,
+      78.0,
+      90.0
+    ],
+    "input_width_um": 10.0,
+    "output_centers_um": [
+      -90.0,
+      -70.0,
+      -50.0,
+      -30.0,
+      -10.0,
+      10.0,
+      30.0,
+      50.0,
+      70.0,
+      90.0
+    ],
+    "output_width_um": 12.0,
+    "slot_bounds_um": [
+      0.0,
+      2.0
+    ],
+    "interpolation": "linear amplitude and unwrapped phase",
+    "epochs": 20,
+    "batch_size": 64,
+    "cpu_threads": 4,
+    "optimizer": "Adam",
+    "learning_rate": 0.0008,
+    "weight_decay": 0.0001,
+    "cosine_eta_min": 3e-05,
+    "gradient_clip": 1.0,
+    "input_noise_pi": 0.005,
+    "initialization": "0.5 um + Normal(0,0.02 um), matched across wavelengths",
+    "selection": "minimum validation CE among epochs with maximum validation accuracy",
+    "train_samples": 7200,
+    "val_samples": 1260,
+    "independent_test": false,
+    "task": "joint_fine9_shared",
+    "wavelengths_nm": [
+      1310,
+      1610
+    ],
+    "input_power_fractions": [
+      0.5,
+      0.5
+    ],
+    "total_input_power": 1.0,
+    "shared_structure": true,
+    "trainable_parameters": 1665,
+    "whole_device_fdtd": false,
+    "model": "calibrated scalar angular spectrum with analytic input/output modes",
+    "fusion": "physical intensity sum before nine-port normalization; no learned electronic readout",
+    "source_sha256": {
+      "comparison_1310_1610_scene3_20261016/run_joint_fine9.py": "f3251805cc8eb291adc6c685895105cd3431d20452e7cb1590a50a0f18417eee",
+      "comparison_1310_1610_scene3_20261016/run_comparison.py": "149158abc1c09df7a88c56b0adc95762a557095133a86bd7aef843a51f512114",
+      "comparison_1310_1610_scene3_20261016/resolved_grid10000/fine_encoded16.npz": "c75fe07845f3d830058904e4bb989125a1ce679069fd4b82317a1a36783cdee9",
+      "comparison_1310_1610_scene3_20261016/resolved_grid10000/fine_encoding.json": "1c776bd24014d278614e03b56083c77f7002bf50241f2c352df5ba0d0b144b29",
+      "feature_upgrade_20261011/diagnostics.json": "6937a07c5f93d84cfbb97f453d0faaef2e467b252dbfa10ed85efeec15a469e6",
+      "calibration_1310_1610nm_20261016/wl1310nm/calibration_response.npz": "b581ffec9861912540aceb5737414bd69fb66b46f52b1374054f78860e8512b7",
+      "calibration_1310_1610nm_20261016/wl1310nm/mode_probe.json": "1671bb56a29b13fae7551e36e919aed9bfa41f621b464609202a94c41f72ed3f",
+      "calibration_1310_1610nm_20261016/wl1610nm/calibration_response.npz": "400488fd0fd404c6ef9cb169154f28fa566523e9ce985146c9dd0014622546b8",
+      "calibration_1310_1610nm_20261016/wl1610nm/mode_probe.json": "0c1a039f4c549cb5bd39bf9eec9347839e0b44ea40fa46c9e0fe5d69ef9ae7de"
+    },
+    "software": {
+      "python": "3.13.9",
+      "torch": "2.9.0+cpu",
+      "numpy": "2.3.4",
+      "sklearn": "1.8.0"
+    }
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ]
+}

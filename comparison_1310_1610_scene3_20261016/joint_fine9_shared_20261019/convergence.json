@@ -1,0 +1,42 @@
+[
+  {
+    "seed": 42,
+    "grid_n": 20000,
+    "padding_factor": 2,
+    "accuracy": 0.8007936507936508,
+    "accuracy_delta": 0.0,
+    "probability_mean_abs_delta": 8.290012192446738e-05,
+    "probability_max_abs_delta": 0.000667572021484375,
+    "prediction_changes": 0
+  },
+  {
+    "seed": 42,
+    "grid_n": 10000,
+    "padding_factor": 4,
+    "accuracy": 0.8023809523809524,
+    "accuracy_delta": 0.0015873015873015817,
+    "probability_mean_abs_delta": 0.0009943615878000855,
+    "probability_max_abs_delta": 0.012233853340148926,
+    "prediction_changes": 3
+  },
+  {
+    "seed": 43,
+    "grid_n": 20000,
+    "padding_factor": 2,
+    "accuracy": 0.7849206349206349,
+    "accuracy_delta": 0.0,
+    "probability_mean_abs_delta": 8.025514398468658e-05,
+    "probability_max_abs_delta": 0.0006817877292633057,
+    "prediction_changes": 0
+  },
+  {
+    "seed": 44,
+    "grid_n": 20000,
+    "padding_factor": 2,
+    "accuracy": 0.7992063492063493,
+    "accuracy_delta": 0.0,
+    "probability_mean_abs_delta": 9.703567047836259e-05,
+    "probability_max_abs_delta": 0.0007926225662231445,
+    "prediction_changes": 0
+  }
+]

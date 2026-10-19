@@ -1,0 +1,180 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "runs": [
+    {
+      "seed": 42,
+      "joint_accuracy": 0.8007936507936508,
+      "best_epoch": 20,
+      "joint_final_accuracy": 0.8007936507936508,
+      "joint_active_collection_fraction": 0.006778194569051266,
+      "same_structure_1310_only": 0.6825396825396826,
+      "same_structure_1610_only": 0.7722222222222223,
+      "separately_trained_1310_accuracy": 0.7912698412698412,
+      "separately_trained_1610_accuracy": 0.8119047619047619,
+      "two_structure_power_sum_reference": 0.8071428571428572
+    },
+    {
+      "seed": 43,
+      "joint_accuracy": 0.7849206349206349,
+      "best_epoch": 19,
+      "joint_final_accuracy": 0.7841269841269841,
+      "joint_active_collection_fraction": 0.006596068851649761,
+      "same_structure_1310_only": 0.7238095238095238,
+      "same_structure_1610_only": 0.7888888888888889,
+      "separately_trained_1310_accuracy": 0.7984126984126985,
+      "separately_trained_1610_accuracy": 0.8103174603174603,
+      "two_structure_power_sum_reference": 0.803968253968254
+    },
+    {
+      "seed": 44,
+      "joint_accuracy": 0.7992063492063493,
+      "best_epoch": 20,
+      "joint_final_accuracy": 0.7992063492063493,
+      "joint_active_collection_fraction": 0.006528135389089584,
+      "same_structure_1310_only": 0.7071428571428572,
+      "same_structure_1610_only": 0.7246031746031746,
+      "separately_trained_1310_accuracy": 0.8047619047619048,
+      "separately_trained_1610_accuracy": 0.8055555555555556,
+      "two_structure_power_sum_reference": 0.8071428571428572
+    }
+  ],
+  "comparisons": {
+    "separately_trained_1310_accuracy": {
+      "mean": 0.7981481481481483,
+      "sample_sd": 0.006749921069932876,
+      "per_seed": [
+        0.7912698412698412,
+        0.7984126984126985,
+        0.8047619047619048
+      ]
+    },
+    "separately_trained_1610_accuracy": {
+      "mean": 0.8092592592592593,
+      "sample_sd": 0.003304231745184326,
+      "per_seed": [
+        0.8119047619047619,
+        0.8103174603174603,
+        0.8055555555555556
+      ]
+    },
+    "joint_accuracy": {
+      "mean": 0.7949735449735451,
+      "sample_sd": 0.008742175471882734,
+      "per_seed": [
+        0.8007936507936508,
+        0.7849206349206349,
+        0.7992063492063493
+      ]
+    },
+    "same_structure_1310_only": {
+      "mean": 0.7044973544973545,
+      "sample_sd": 0.020761718685961283,
+      "per_seed": [
+        0.6825396825396826,
+        0.7238095238095238,
+        0.7071428571428572
+      ]
+    },
+    "same_structure_1610_only": {
+      "mean": 0.7619047619047619,
+      "sample_sd": 0.0333616659634662,
+      "per_seed": [
+        0.7722222222222223,
+        0.7888888888888889,
+        0.7246031746031746
+      ]
+    },
+    "two_structure_power_sum_reference": {
+      "mean": 0.8060846560846562,
+      "sample_sd": 0.001832857997427377,
+      "per_seed": [
+        0.8071428571428572,
+        0.803968253968254,
+        0.8071428571428572
+      ]
+    },
+    "joint_active_collection_fraction": {
+      "mean": 0.00663413293659687,
+      "sample_sd": 0.00012930218208879037,
+      "per_seed": [
+        0.006778194569051266,
+        0.006596068851649761,
+        0.006528135389089584
+      ]
+    },
+    "joint_final_accuracy": {
+      "mean": 0.7947089947089948,
+      "sample_sd": 0.009198591878684534,
+      "per_seed": [
+        0.8007936507936508,
+        0.7841269841269841,
+        0.7992063492063493
+      ]
+    }
+  },
+  "joint_minus_separate_single": {
+    "1310": {
+      "mean": -0.0031746031746031633,
+      "per_seed": [
+        0.009523809523809601,
+        -0.013492063492063555,
+        -0.005555555555555536
+      ]
+    },
+    "1610": {
+      "mean": -0.014285714285714271,
+      "per_seed": [
+        -0.011111111111111072,
+        -0.025396825396825418,
+        -0.006349206349206327
+      ]
+    }
+  },
+  "baseline_reproduction": [
+    {
+      "seed": 42,
+      "wavelength_nm": 1310,
+      "max_port_abs_delta": 2.2351741790771484e-08,
+      "accuracy_reproduced": true
+    },
+    {
+      "seed": 42,
+      "wavelength_nm": 1610,
+      "max_port_abs_delta": 1.30385160446167e-08,
+      "accuracy_reproduced": true
+    },
+    {
+      "seed": 43,
+      "wavelength_nm": 1310,
+      "max_port_abs_delta": 1.4901161193847656e-08,
+      "accuracy_reproduced": true
+    },
+    {
+      "seed": 43,
+      "wavelength_nm": 1610,
+      "max_port_abs_delta": 1.30385160446167e-08,
+      "accuracy_reproduced": true
+    },
+    {
+      "seed": 44,
+      "wavelength_nm": 1310,
+      "max_port_abs_delta": 2.421438694000244e-08,
+      "accuracy_reproduced": true
+    },
+    {
+      "seed": 44,
+      "wavelength_nm": 1610,
+      "max_port_abs_delta": 1.6763806343078613e-08,
+      "accuracy_reproduced": true
+    }
+  ],
+  "trainable_parameters": 1665,
+  "total_input_power": 1.0,
+  "independent_test": false,
+  "shared_structure": true,
+  "whole_device_fdtd": false
+}

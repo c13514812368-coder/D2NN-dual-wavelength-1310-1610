@@ -1,0 +1,29 @@
+{
+  "combined_output_layout": [
+    "combined_port_0",
+    "combined_port_1",
+    "combined_port_2",
+    "combined_port_3",
+    "combined_port_4",
+    "combined_port_5",
+    "combined_port_6",
+    "combined_port_7",
+    "combined_port_8",
+    "combined_port_9"
+  ],
+  "flattened_output_layout": [
+    "1.56_port_0",
+    "1.56_port_1",
+    "1.56_port_2",
+    "1.56_port_3",
+    "1.56_port_4",
+    "1.56_port_5",
+    "1.56_port_6",
+    "1.56_port_7",
+    "1.56_port_8",
+    "1.56_port_9"
+  ],
+  "task_wavelengths_um": [
+    1.56
+  ]
+}

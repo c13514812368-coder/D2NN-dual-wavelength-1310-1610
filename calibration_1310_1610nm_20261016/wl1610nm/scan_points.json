@@ -1,0 +1,212 @@
+[
+  {
+    "slot_length_um": 0.0,
+    "relative_re": 1.0,
+    "relative_im": 0.0,
+    "transfer_abs": 1.0003920836013616,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": 0.006644305642068697,
+    "output_im": -0.0032269830761388948,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 0.1,
+    "relative_re": 0.8950894360266947,
+    "relative_im": -0.3307731289646196,
+    "transfer_abs": 0.7730426833114263,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": 0.004879848500737921,
+    "output_im": -0.005086196228713191,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 0.2,
+    "relative_re": 0.54304478595214,
+    "relative_im": -0.6604621106909362,
+    "transfer_abs": 0.6846305653289864,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": 0.0014768554815671672,
+    "output_im": -0.006140708462289412,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 0.3,
+    "relative_re": 0.05343664901622992,
+    "relative_im": -0.8023166055798264,
+    "transfer_abs": 0.8206927841013323,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": -0.0022340126793595236,
+    "output_im": -0.005503275911200395,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 0.4,
+    "relative_re": -0.4615067156365245,
+    "relative_im": -0.6907407467650073,
+    "transfer_abs": 1.352278913254113,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": -0.005295400374366575,
+    "output_im": -0.0031002182800539736,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 0.5,
+    "relative_re": -0.8500359378370166,
+    "relative_im": -0.3688231655806318,
+    "transfer_abs": 1.484996855548637,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": -0.006838084691148318,
+    "output_im": 0.00029247774551687737,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 0.6,
+    "relative_re": -0.9988802373879143,
+    "relative_im": 0.03600347762776908,
+    "transfer_abs": 1.0279470018984072,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": -0.006520682984040483,
+    "output_im": 0.0034625877306766815,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 0.7,
+    "relative_re": -0.8330809434547268,
+    "relative_im": 0.4355121560024015,
+    "transfer_abs": 0.7555694839108885,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": -0.004129854056023644,
+    "output_im": 0.005582013980898487,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 0.8,
+    "relative_re": -0.42562164956958326,
+    "relative_im": 0.7240873168781901,
+    "transfer_abs": 0.7017192808751856,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": -0.0004913428104090274,
+    "output_im": 0.006184531304883508,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 0.9,
+    "relative_re": 0.08237114918340345,
+    "relative_im": 0.7989104907788325,
+    "transfer_abs": 0.9112132130994097,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": 0.003125369724356081,
+    "output_im": 0.005042395177012713,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 1.0,
+    "relative_re": 0.5760759721970458,
+    "relative_im": 0.6206799151981696,
+    "transfer_abs": 1.5182319443870809,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": 0.0058305484143728594,
+    "output_im": 0.002264999649619791,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 1.1,
+    "relative_re": 0.9130912873380101,
+    "relative_im": 0.259732103768068,
+    "transfer_abs": 1.3771188906882104,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": 0.006905008695373218,
+    "output_im": -0.0012207906487170892,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 1.2,
+    "relative_re": 0.9867393145568855,
+    "relative_im": -0.15216707128238027,
+    "transfer_abs": 0.9524054182339785,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": 0.006065157031187452,
+    "output_im": -0.004195235598894552,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 1.3,
+    "relative_re": 0.7473026136187986,
+    "relative_im": -0.5308218471607252,
+    "transfer_abs": 0.7298917149689274,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": 0.0032523538547676195,
+    "output_im": -0.005938475480925561,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 1.4,
+    "relative_re": 0.299965232813051,
+    "relative_im": -0.7689512335675772,
+    "transfer_abs": 0.7287553057262958,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": -0.0004883319282944932,
+    "output_im": -0.006077129749386518,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 1.5,
+    "relative_re": -0.21592753733581752,
+    "relative_im": -0.7761987051912155,
+    "transfer_abs": 1.0311562294111538,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": -0.003939468639971347,
+    "output_im": -0.004460506927613378,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 1.6,
+    "relative_re": -0.6797968759306244,
+    "relative_im": -0.5363484065503376,
+    "transfer_abs": 1.6234035152070176,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": -0.006247565449058526,
+    "output_im": -0.001369969729916746,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 1.7,
+    "relative_re": -0.9586743228052681,
+    "relative_im": -0.14565002284244563,
+    "transfer_abs": 1.266215492693458,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": -0.006839735370673246,
+    "output_im": 0.00212588254668202,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 1.8,
+    "relative_re": -0.9537383906900283,
+    "relative_im": 0.2653142241503367,
+    "transfer_abs": 0.8887946766639038,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": -0.005480764859127217,
+    "output_im": 0.004840526442263828,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 1.9,
+    "relative_re": -0.6475629908599084,
+    "relative_im": 0.6151629855102164,
+    "transfer_abs": 0.7154505176384186,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": -0.0023174858904568252,
+    "output_im": 0.006177005707656166,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  },
+  {
+    "slot_length_um": 2.0,
+    "relative_re": -0.16928302537803033,
+    "relative_im": 0.7965432369809302,
+    "transfer_abs": 0.7720036943313187,
+    "monitor_frequency_hz": 186206495652173.9,
+    "output_re": 0.0014456633845246496,
+    "output_im": 0.005838750181596553,
+    "normalization": "output_field / no_slot_output_field, identical source"
+  }
+]

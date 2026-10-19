@@ -1,0 +1,218 @@
+{
+  "task": "fine9",
+  "wavelength_nm": 1610,
+  "seed": 44,
+  "epochs": 20,
+  "best_epoch": 20,
+  "best_validation": {
+    "accuracy": 0.8055555555555556,
+    "ce": 0.8164130449295044,
+    "mean_active_collection_fraction": 0.00661622965708375,
+    "mean_10port_collection_fraction": 0.016554513946175575
+  },
+  "final_validation": {
+    "accuracy": 0.8055555555555556,
+    "ce": 0.8164130449295044,
+    "mean_active_collection_fraction": 0.00661622965708375,
+    "mean_10port_collection_fraction": 0.016554513946175575
+  },
+  "best_training": {
+    "accuracy": 0.8263888888888888,
+    "ce": 0.7794619798660278,
+    "mean_active_collection_fraction": 0.006737221498042345,
+    "mean_10port_collection_fraction": 0.01651029661297798
+  },
+  "classes": [
+    "n09193705_alp",
+    "n09468604_valley",
+    "n09472597_volcano",
+    "n09256479_coral_reef",
+    "n09332890_lakeside",
+    "n09428293_seashore",
+    "n03028079_church",
+    "n02980441_castle",
+    "n03661043_library"
+  ],
+  "confusion_matrix": [
+    [
+      91,
+      9,
+      16,
+      1,
+      2,
+      3,
+      11,
+      3,
+      4
+    ],
+    [
+      4,
+      120,
+      2,
+      5,
+      4,
+      4,
+      0,
+      0,
+      1
+    ],
+    [
+      12,
+      0,
+      115,
+      1,
+      1,
+      2,
+      2,
+      2,
+      5
+    ],
+    [
+      6,
+      0,
+      1,
+      132,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      5,
+      5,
+      0,
+      2,
+      98,
+      25,
+      0,
+      3,
+      2
+    ],
+    [
+      7,
+      2,
+      3,
+      6,
+      16,
+      103,
+      1,
+      0,
+      2
+    ],
+    [
+      4,
+      0,
+      2,
+      0,
+      0,
+      0,
+      118,
+      15,
+      1
+    ],
+    [
+      5,
+      1,
+      1,
+      2,
+      1,
+      1,
+      13,
+      116,
+      0
+    ],
+    [
+      5,
+      0,
+      1,
+      0,
+      0,
+      3,
+      5,
+      4,
+      122
+    ]
+  ],
+  "classification_report": {
+    "n09193705_alp": {
+      "precision": 0.6546762589928058,
+      "recall": 0.65,
+      "f1-score": 0.6523297491039427,
+      "support": 140.0
+    },
+    "n09468604_valley": {
+      "precision": 0.8759124087591241,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8664259927797834,
+      "support": 140.0
+    },
+    "n09472597_volcano": {
+      "precision": 0.8156028368794326,
+      "recall": 0.8214285714285714,
+      "f1-score": 0.8185053380782918,
+      "support": 140.0
+    },
+    "n09256479_coral_reef": {
+      "precision": 0.8859060402684564,
+      "recall": 0.9428571428571428,
+      "f1-score": 0.9134948096885813,
+      "support": 140.0
+    },
+    "n09332890_lakeside": {
+      "precision": 0.8032786885245902,
+      "recall": 0.7,
+      "f1-score": 0.7480916030534351,
+      "support": 140.0
+    },
+    "n09428293_seashore": {
+      "precision": 0.7304964539007093,
+      "recall": 0.7357142857142858,
+      "f1-score": 0.7330960854092526,
+      "support": 140.0
+    },
+    "n03028079_church": {
+      "precision": 0.7866666666666666,
+      "recall": 0.8428571428571429,
+      "f1-score": 0.8137931034482758,
+      "support": 140.0
+    },
+    "n02980441_castle": {
+      "precision": 0.8111888111888111,
+      "recall": 0.8285714285714286,
+      "f1-score": 0.8197879858657244,
+      "support": 140.0
+    },
+    "n03661043_library": {
+      "precision": 0.8840579710144928,
+      "recall": 0.8714285714285714,
+      "f1-score": 0.8776978417266187,
+      "support": 140.0
+    },
+    "accuracy": 0.8055555555555556,
+    "macro avg": {
+      "precision": 0.8053095706883433,
+      "recall": 0.8055555555555556,
+      "f1-score": 0.8048025010171007,
+      "support": 1260.0
+    },
+    "weighted avg": {
+      "precision": 0.8053095706883432,
+      "recall": 0.8055555555555556,
+      "f1-score": 0.8048025010171006,
+      "support": 1260.0
+    }
+  },
+  "slot_min_um": 0.0,
+  "slot_max_um": 1.0120238065719604,
+  "elapsed_s": 146.4121870994568,
+  "model_kind": "calibrated scalar angular spectrum; analytic cosine apertures",
+  "whole_device_fdtd": false,
+  "coarse_from_9ports_accuracy": 0.9103174603174603,
+  "within_true_coarse_fine_accuracy": 0.8658730158730159,
+  "within_true_coarse_fine_accuracy_per_group": {
+    "natural_landform": 0.8523809523809524,
+    "water_coast": 0.8571428571428571,
+    "built_environment": 0.888095238095238
+  }
+}

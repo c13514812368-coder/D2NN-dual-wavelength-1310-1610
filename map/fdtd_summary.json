@@ -1,0 +1,30 @@
+{
+  "did_run": true,
+  "diffs": [],
+  "emode_path": "D:\\prjdata\\multiwavelenth-DONN\\data\\raw\\simulation_data\\simulation_20260328_123650_649556\\Emode_yExEyEzHxHyHz_P_right_m1_wl1540nm.mat",
+  "mapping_factor": -0.5434706664488476,
+  "mapping_factor_by_wavelength_um": {
+    "1.54": -0.5434706664488476,
+    "1.56": -0.5505287270520796
+  },
+  "monitor_payload_kind": "full_fields",
+  "monitors_bundle_path": "D:\\prjdata\\multiwavelenth-DONN\\data\\raw\\simulation_data\\simulation_20260328_123650_649556\\monitors.npz",
+  "neff": 2.8312631869768183,
+  "neff_by_wavelength_um": {
+    "1.54": 2.8312631869768183,
+    "1.56": 2.831263186976818
+  },
+  "parameter_txt_dir": "D:\\prjdata\\multiwavelenth-DONN\\data\\raw\\simulation_data\\simulation_20260328_123650_649556\\params_txt",
+  "run_dir": "D:\\prjdata\\multiwavelenth-DONN\\runs\\experiments\\2026-03-28_123649_mnist32_dualwavelength_localmap_w500_correct_seed42\\fdtd\\runtime\\fdtd_run_20260328_123650_650555",
+  "selected_wavelength_um": 1.54,
+  "sim_dir": "D:\\prjdata\\multiwavelenth-DONN\\data\\raw\\simulation_data\\simulation_20260328_123650_649556",
+  "sim_signature": "9363893d77951c7f0fbc95df4a0d6e686b7fe35d2fe10afdc562ca060d0a2a19",
+  "simulation_record_path": "D:\\prjdata\\multiwavelenth-DONN\\data\\raw\\simulation_data\\simulation_20260328_123650_649556\\simulation_record.json",
+  "source": "ran_no_cache",
+  "use_cached_results": false,
+  "warnings": [],
+  "wavelengths_um": [
+    1.54,
+    1.56
+  ]
+}

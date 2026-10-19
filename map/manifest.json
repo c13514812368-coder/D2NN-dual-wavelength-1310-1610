@@ -1,0 +1,13 @@
+{
+  "calibration_package": "C:\\Users\\guiji\\Desktop\\multiwavelenth-DONN\\configs\\experiment\\mnist32_dualwavelength_localmap_w500_correct\\map\\calibration_package.pt",
+  "config_path": "C:\\Users\\guiji\\Desktop\\multiwavelenth-DONN\\configs\\experiment\\mnist32_dualwavelength_localmap_w500_correct\\mnist32_dualwavelength_localmap_w500_correct.yaml",
+  "fdtd_summary": "C:\\Users\\guiji\\Desktop\\multiwavelenth-DONN\\configs\\experiment\\mnist32_dualwavelength_localmap_w500_correct\\map\\fdtd_summary.json",
+  "figures_dir": "C:\\Users\\guiji\\Desktop\\multiwavelenth-DONN\\configs\\experiment\\mnist32_dualwavelength_localmap_w500_correct\\map\\figures",
+  "global_monitor_bundle_path": "C:\\Users\\guiji\\Desktop\\multiwavelenth-DONN\\configs\\experiment\\mnist32_dualwavelength_localmap_w500_correct\\map\\global_monitors.npz",
+  "mapped_network_package": "C:\\Users\\guiji\\Desktop\\multiwavelenth-DONN\\configs\\experiment\\mnist32_dualwavelength_localmap_w500_correct\\map\\mapped_network_package.pt",
+  "monitors_bundle_path": "C:\\Users\\guiji\\Desktop\\multiwavelenth-DONN\\configs\\experiment\\mnist32_dualwavelength_localmap_w500_correct\\map\\monitors.npz",
+  "package_meta": "C:\\Users\\guiji\\Desktop\\multiwavelenth-DONN\\configs\\experiment\\mnist32_dualwavelength_localmap_w500_correct\\map\\package_meta.json",
+  "shape_spec": "C:\\Users\\guiji\\Desktop\\multiwavelenth-DONN\\configs\\experiment\\mnist32_dualwavelength_localmap_w500_correct\\map\\shape_spec.json",
+  "source_run_dir": "C:\\Users\\guiji\\Desktop\\multiwavelenth-DONN\\runs\\experiments\\2026-03-28_123649_mnist32_dualwavelength_localmap_w500_correct_seed42",
+  "visualization_manifest": "C:\\Users\\guiji\\Desktop\\multiwavelenth-DONN\\configs\\experiment\\mnist32_dualwavelength_localmap_w500_correct\\map\\visualization_manifest.json"
+}

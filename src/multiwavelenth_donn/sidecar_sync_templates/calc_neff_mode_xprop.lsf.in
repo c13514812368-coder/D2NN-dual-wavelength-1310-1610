@@ -1,0 +1,69 @@
+# Managed from YAML by scripts/sync_base_lsf.py.
+# Edit the paired YAML, then re-run the sync helper. The variable block below is auto-managed.
+# >>> AUTO-SYNC VARS BEGIN
+wavelength_m = {{wavelength_m}};
+core_h_m = {{core_h_m}};
+lateral_span_m = {{lateral_span_m}};
+top_cladding_center_z_m = {{top_cladding_center_z_m}};
+bottom_cladding_center_z_m = {{bottom_cladding_center_z_m}};
+
+top_material_name = {{top_material_name}};
+top_material_index = {{top_material_index}};
+top_set_index = {{top_set_index}};
+
+bottom_material_name = {{bottom_material_name}};
+bottom_material_index = {{bottom_material_index}};
+bottom_set_index = {{bottom_set_index}};
+
+core_material_name = {{core_material_name}};
+core_material_index = {{core_material_index}};
+core_set_index = {{core_set_index}};
+# <<< AUTO-SYNC VARS END
+
+switchtolayout;
+selectall; delete;
+redrawoff;
+
+addfde;
+set('solver type', '1D Z:X prop');
+set('mesh cells z', 2000);
+set('x', 0);
+set('y', 0);
+set('z', 0);
+set('z span', 2.8*core_h_m);
+set('z min bc', 'PML');
+set('z max bc', 'PML');
+set('wavelength', wavelength_m);
+set('number of trial modes', 50);
+
+addrect;
+set('name', 'cladding_top');
+set('material', top_material_name);
+if (top_set_index) { set('index', top_material_index); }
+set('x span', 2e-6);
+set('y span', lateral_span_m);
+set('z span', lateral_span_m);
+set('z', top_cladding_center_z_m);
+
+addrect;
+set('name', 'cladding_bottom');
+set('material', bottom_material_name);
+if (bottom_set_index) { set('index', bottom_material_index); }
+set('x span', 2e-6);
+set('y span', lateral_span_m);
+set('z span', lateral_span_m);
+set('z', bottom_cladding_center_z_m);
+
+addrect;
+set('name', 'core');
+set('material', core_material_name);
+if (core_set_index) { set('index', core_material_index); }
+set('x span', 2e-6);
+set('y span', lateral_span_m);
+set('z span', core_h_m);
+set('z', 0);
+
+findmodes;
+redrawon;
+E = getresult('FDE::data::mode1','E');
+matlabsave('mode1_E.mat', E);

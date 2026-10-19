@@ -1,0 +1,38 @@
+[
+  {
+    "wavelength_nm": 1310,
+    "slot_length_um": 0.5,
+    "slot_width_um": 0.15,
+    "periodic_pitch_um": 0.3,
+    "transmitted_relative_amplitude": 0.9944745515620814,
+    "transmitted_relative_wrapped_phase_pi": 0.8970516048246859,
+    "calibration_unwrapped_phase_pi": -1.102948395175314,
+    "calibration_amplitude_difference": 0.0,
+    "calibration_phase_difference_pi": -0.0,
+    "field_shape": [
+      26,
+      496
+    ],
+    "solver": "Lumerical v241 MODE varFDTD",
+    "whole_device_fdtd": false,
+    "note": "Periodic identical-slot array, Hz field component. Intensity is a field-component diagnostic, not total power efficiency. Reflected/standing fields exist upstream; incident normalization uses no-slot baseline."
+  },
+  {
+    "wavelength_nm": 1610,
+    "slot_length_um": 0.5,
+    "slot_width_um": 0.15,
+    "periodic_pitch_um": 0.3,
+    "transmitted_relative_amplitude": 0.926602192466311,
+    "transmitted_relative_wrapped_phase_pi": -0.8696911079748582,
+    "calibration_unwrapped_phase_pi": -0.8696911079748582,
+    "calibration_amplitude_difference": 0.0,
+    "calibration_phase_difference_pi": -0.0,
+    "field_shape": [
+      22,
+      401
+    ],
+    "solver": "Lumerical v241 MODE varFDTD",
+    "whole_device_fdtd": false,
+    "note": "Periodic identical-slot array, Hz field component. Intensity is a field-component diagnostic, not total power efficiency. Reflected/standing fields exist upstream; incident normalization uses no-slot baseline."
+  }
+]

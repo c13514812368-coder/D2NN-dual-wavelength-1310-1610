@@ -1,0 +1,192 @@
+# Managed from YAML by scripts/sync_base_lsf.py.
+# Edit the paired YAML, then re-run the sync helper. The variable block below is auto-managed.
+# >>> AUTO-SYNC VARS BEGIN
+use_var_fdtd = {{use_var_fdtd}};
+multi_wavelength = {{multi_wavelength}};
+
+background_material_name = {{background_material_name}};
+background_material_index = {{background_material_index}};
+background_set_index = {{background_set_index}};
+
+propagation_material_name = {{propagation_material_name}};
+propagation_material_index = {{propagation_material_index}};
+propagation_set_index = {{propagation_set_index}};
+
+sub_material_name = {{sub_material_name}};
+sub_material_index = {{sub_material_index}};
+sub_set_index = {{sub_set_index}};
+
+lam_start_m = {{lam_start_m}};
+lam_stop_m = {{lam_stop_m}};
+wl_points = {{wl_points}};
+mesh_accuracy = {{mesh_accuracy}};
+
+fdtd_x_span_m = {{fdtd_x_span_m}};
+fdtd_y_span_m = {{fdtd_y_span_m}};
+fdtd_z_span_m = {{fdtd_z_span_m}};
+simulation_time_s = {{simulation_time_s}};
+
+prop_x_span_m = {{prop_x_span_m}};
+prop_y_span_m = {{prop_y_span_m}};
+prop_z_span_m = {{prop_z_span_m}};
+sub_x_span_m = {{sub_x_span_m}};
+sub_y_span_m = {{sub_y_span_m}};
+sub_z_span_m = {{sub_z_span_m}};
+sub_center_z_m = {{sub_center_z_m}};
+
+total_len_m = {{total_len_m}};
+total_wid_m = {{total_wid_m}};
+wg_len_m = {{wg_len_m}};
+wg_width_m = {{wg_width_m}};
+wg_bias_m = {{wg_bias_m}};
+x_left_m = {{x_left_m}};
+x_right_m = {{x_right_m}};
+y0_m = {{y0_m}};
+# <<< AUTO-SYNC VARS END
+
+switchtolayout;
+
+if (use_var_fdtd) {
+    addvarfdtd;
+} else {
+    addfdtd;
+    set('dimension', '2D');
+}
+
+set('x min bc','PML');
+set('x max bc','PML');
+set('y min bc','PML');
+set('y max bc','PML');
+set('z min bc','PML');
+set('z max bc','PML');
+set('background material', background_material_name);
+if (background_set_index) { set('index', background_material_index); }
+set('x span', fdtd_x_span_m);
+set('y span', fdtd_y_span_m);
+set('z span', fdtd_z_span_m);
+set('x', 0);
+set('y', 0);
+set('z', 0);
+set('mesh accuracy', mesh_accuracy);
+set('simulation time', simulation_time_s);
+
+addrect;
+set('name', 'propagation');
+set('material', propagation_material_name);
+if (propagation_set_index) { set('index', propagation_material_index); }
+set('x span', prop_x_span_m);
+set('y span', prop_y_span_m);
+set('z span', prop_z_span_m);
+set('x', 0);
+set('y', 0);
+set('z', 0);
+
+setglobalmonitor('use source limits', true);
+setglobalmonitor('frequency points', wl_points);
+
+addrect;
+set('name', 'sub');
+set('material', sub_material_name);
+if (sub_set_index) { set('index', sub_material_index); }
+set('x span', sub_x_span_m);
+set('y span', sub_y_span_m);
+set('z span', sub_z_span_m);
+set('x', 0);
+set('y', 0);
+set('z', sub_center_z_m);
+
+addrect;
+set('name', 'input_wg0');
+set('material', propagation_material_name);
+if (propagation_set_index) { set('index', propagation_material_index); }
+set('x span', wg_len_m);
+set('y span', wg_width_m + wg_bias_m);
+set('x', x_left_m);
+set('y', y0_m);
+set('z span', prop_z_span_m);
+
+addmodesource;
+set('name', 'mode_src_fwd');
+set('injection axis', 'x');
+set('direction', 'Forward');
+set('x', x_left_m - 0.25*wg_len_m);
+set('y', y0_m);
+set('y span', 2*wg_width_m);
+set('wavelength start', lam_start_m);
+set('wavelength stop', lam_stop_m);
+if (multi_wavelength) {
+    if (haveproperty('multifrequency mode calculation')) { set('multifrequency mode calculation', true); }
+    if (haveproperty('frequency points')) { set('frequency points', wl_points); }
+}
+
+addpower;
+set('name', 'P_right2');
+set('monitor type', '2D X-normal');
+set('y span', total_wid_m);
+set('x', 0.5*total_len_m + wg_len_m*0.85);
+set('z', 0);
+
+addmodeexpansion;
+set('name', 'modeExp_right');
+set('monitor type', 'linear Y');
+setexpansion('modeExp_right', 'P_right2');
+set('x', 0.5*total_len_m + wg_len_m*0.85);
+set('y', y0_m);
+set('y span', total_wid_m);
+set('mode selection', 'fundamental mode');
+if (multi_wavelength) {
+    if (haveproperty('override global monitor settings')) { set('override global monitor settings', true); }
+    if (haveproperty('use source limits')) { set('use source limits', true); }
+    if (haveproperty('frequency points')) { set('frequency points', wl_points); }
+}
+updatemodes;
+
+addpower;
+set('name', 'P_right');
+set('monitor type', '2D X-normal');
+set('y span', total_wid_m);
+set('x', 0.5*total_len_m + 0.1*1e-6);
+set('z', 0);
+
+addrect;
+set('name', 'output_wg0');
+set('material', propagation_material_name);
+if (propagation_set_index) { set('index', propagation_material_index); }
+set('x span', wg_len_m);
+set('y span', wg_width_m);
+set('x', x_right_m);
+set('y', y0_m);
+set('z span', prop_z_span_m);
+
+addmodesource;
+set('name', 'mode_src_bwd');
+set('injection axis', 'x');
+set('direction', 'Backward');
+set('x', x_right_m + 0.4*wg_len_m);
+set('y', y0_m);
+set('y span', 2*wg_width_m);
+set('wavelength start', lam_start_m);
+set('wavelength stop', lam_stop_m);
+if (multi_wavelength) {
+    if (haveproperty('multifrequency mode calculation')) { set('multifrequency mode calculation', true); }
+    if (haveproperty('frequency points')) { set('frequency points', wl_points); }
+}
+
+addmodeexpansion;
+set('name', 'modeExp_left');
+set('monitor type', 'linear Y');
+set('x', x_left_m + 0.25*wg_len_m);
+set('y', y0_m);
+set('y span', wg_width_m);
+if (multi_wavelength) {
+    if (haveproperty('override global monitor settings')) { set('override global monitor settings', true); }
+    if (haveproperty('use source limits')) { set('use source limits', true); }
+    if (haveproperty('frequency points')) { set('frequency points', wl_points); }
+}
+
+addpower;
+set('name', 'P_left');
+set('monitor type', '2D X-normal');
+set('y span', total_wid_m);
+set('x', x_left_m + 0.05*total_len_m);
+set('z', 0);

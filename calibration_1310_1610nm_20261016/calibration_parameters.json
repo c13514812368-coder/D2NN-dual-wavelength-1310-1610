@@ -1,0 +1,23 @@
+{
+  "wavelengths_um": [
+    1.31,
+    1.61
+  ],
+  "n_slab_by_wavelength_um": {
+    "1.31": 2.9829750224356006,
+    "1.61": 2.7957676290407423
+  },
+  "neff_imag_by_wavelength_um": {
+    "1.31": 0.0,
+    "1.61": 0.0
+  },
+  "mapping_factor_by_wavelength_um": {
+    "1.31": -0.43299825885876075,
+    "1.61": -0.575231360546058
+  },
+  "response_files": {
+    "1.31": "wl1310nm/calibration_response.npz",
+    "1.61": "wl1610nm/calibration_response.npz"
+  },
+  "note": "Linear mapping factors are fit summaries; use measured complex responses when amplitude variation matters. This is not a full-network mapped package."
+}

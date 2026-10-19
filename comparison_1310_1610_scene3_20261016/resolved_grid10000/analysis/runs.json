@@ -1,0 +1,134 @@
+[
+  {
+    "task": "coarse3",
+    "wavelength_nm": 1310,
+    "seed": 42,
+    "best_epoch": 13,
+    "best_validation_accuracy": 0.9047619047619048,
+    "final_validation_accuracy": 0.9023809523809524,
+    "validation_ce": 0.3409227728843689,
+    "active_collection_fraction": 0.006566298194229603
+  },
+  {
+    "task": "coarse3",
+    "wavelength_nm": 1310,
+    "seed": 43,
+    "best_epoch": 15,
+    "best_validation_accuracy": 0.9047619047619048,
+    "final_validation_accuracy": 0.9015873015873016,
+    "validation_ce": 0.3398422598838806,
+    "active_collection_fraction": 0.008030264638364315
+  },
+  {
+    "task": "coarse3",
+    "wavelength_nm": 1310,
+    "seed": 44,
+    "best_epoch": 20,
+    "best_validation_accuracy": 0.9158730158730158,
+    "final_validation_accuracy": 0.9158730158730158,
+    "validation_ce": 0.29619431495666504,
+    "active_collection_fraction": 0.004619493614882231
+  },
+  {
+    "task": "coarse3",
+    "wavelength_nm": 1610,
+    "seed": 42,
+    "best_epoch": 8,
+    "best_validation_accuracy": 0.9079365079365079,
+    "final_validation_accuracy": 0.903968253968254,
+    "validation_ce": 0.3516024649143219,
+    "active_collection_fraction": 0.011081051081418991
+  },
+  {
+    "task": "coarse3",
+    "wavelength_nm": 1610,
+    "seed": 43,
+    "best_epoch": 14,
+    "best_validation_accuracy": 0.9095238095238095,
+    "final_validation_accuracy": 0.9079365079365079,
+    "validation_ce": 0.34140557050704956,
+    "active_collection_fraction": 0.009244433604180813
+  },
+  {
+    "task": "coarse3",
+    "wavelength_nm": 1610,
+    "seed": 44,
+    "best_epoch": 16,
+    "best_validation_accuracy": 0.9079365079365079,
+    "final_validation_accuracy": 0.9055555555555556,
+    "validation_ce": 0.3422991633415222,
+    "active_collection_fraction": 0.010486329905688763
+  },
+  {
+    "task": "fine9",
+    "wavelength_nm": 1310,
+    "seed": 42,
+    "best_epoch": 20,
+    "best_validation_accuracy": 0.7912698412698412,
+    "final_validation_accuracy": 0.7912698412698412,
+    "validation_ce": 0.859243631362915,
+    "active_collection_fraction": 0.004737940151244402,
+    "within_true_coarse_fine_accuracy": 0.8595238095238096,
+    "coarse_from_9ports_accuracy": 0.9
+  },
+  {
+    "task": "fine9",
+    "wavelength_nm": 1310,
+    "seed": 43,
+    "best_epoch": 10,
+    "best_validation_accuracy": 0.7984126984126985,
+    "final_validation_accuracy": 0.7944444444444444,
+    "validation_ce": 0.8968845009803772,
+    "active_collection_fraction": 0.00783639308065176,
+    "within_true_coarse_fine_accuracy": 0.8634920634920635,
+    "coarse_from_9ports_accuracy": 0.8976190476190476
+  },
+  {
+    "task": "fine9",
+    "wavelength_nm": 1310,
+    "seed": 44,
+    "best_epoch": 20,
+    "best_validation_accuracy": 0.8047619047619048,
+    "final_validation_accuracy": 0.8047619047619048,
+    "validation_ce": 0.848722517490387,
+    "active_collection_fraction": 0.004021113272756338,
+    "within_true_coarse_fine_accuracy": 0.8690476190476191,
+    "coarse_from_9ports_accuracy": 0.9023809523809524
+  },
+  {
+    "task": "fine9",
+    "wavelength_nm": 1610,
+    "seed": 42,
+    "best_epoch": 17,
+    "best_validation_accuracy": 0.8119047619047619,
+    "final_validation_accuracy": 0.8111111111111111,
+    "validation_ce": 0.8181442022323608,
+    "active_collection_fraction": 0.007185414433479309,
+    "within_true_coarse_fine_accuracy": 0.8706349206349207,
+    "coarse_from_9ports_accuracy": 0.9055555555555556
+  },
+  {
+    "task": "fine9",
+    "wavelength_nm": 1610,
+    "seed": 43,
+    "best_epoch": 13,
+    "best_validation_accuracy": 0.8103174603174603,
+    "final_validation_accuracy": 0.807936507936508,
+    "validation_ce": 0.833807110786438,
+    "active_collection_fraction": 0.008530322462320328,
+    "within_true_coarse_fine_accuracy": 0.8682539682539683,
+    "coarse_from_9ports_accuracy": 0.9
+  },
+  {
+    "task": "fine9",
+    "wavelength_nm": 1610,
+    "seed": 44,
+    "best_epoch": 20,
+    "best_validation_accuracy": 0.8055555555555556,
+    "final_validation_accuracy": 0.8055555555555556,
+    "validation_ce": 0.8164130449295044,
+    "active_collection_fraction": 0.00661622965708375,
+    "within_true_coarse_fine_accuracy": 0.8658730158730159,
+    "coarse_from_9ports_accuracy": 0.9103174603174603
+  }
+]

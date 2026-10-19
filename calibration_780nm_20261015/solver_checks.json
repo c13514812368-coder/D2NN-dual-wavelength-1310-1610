@@ -1,0 +1,37 @@
+[
+  {
+    "label": "1D_400_PML",
+    "neff_real": 3.70929077639476,
+    "neff_imag": 0.0074770558982648816,
+    "field_finite": false,
+    "max_field": null
+  },
+  {
+    "label": "1D_400_metal",
+    "neff_real": 3.4619810884247615,
+    "neff_imag": 0.007707618990243509,
+    "field_finite": true,
+    "max_field": 1.0
+  },
+  {
+    "label": "1D_dielectric",
+    "neff_real": 3.461980258554262,
+    "neff_imag": 0.0,
+    "field_finite": true,
+    "max_field": 1.0
+  },
+  {
+    "label": "2D_Palik",
+    "neff_real": 3.4612886502575044,
+    "neff_imag": 0.007705969380819322,
+    "field_finite": true,
+    "max_field": 0.9999999999999999
+  },
+  {
+    "label": "2D_dielectric",
+    "neff_real": 3.461287822780501,
+    "neff_imag": 0.0,
+    "field_finite": true,
+    "max_field": 0.9999999999999999
+  }
+]

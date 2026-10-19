@@ -1,0 +1,99 @@
+{
+  "model": "calibrated scalar angular spectrum; analytic cosine apertures",
+  "whole_device_fdtd": false,
+  "wavelengths_nm": [
+    1310,
+    1610
+  ],
+  "width_um": 500.0,
+  "gap_um": 125.0,
+  "gaps": 4,
+  "trainable_layers": 3,
+  "groups_per_layer": 555,
+  "group_pitch_um": 0.9,
+  "slot_pitch_um": 0.3,
+  "repeats": 3,
+  "slot_width_um": 0.15,
+  "group_coverage_um": 499.5,
+  "edge_margin_um": 0.25,
+  "grid_n": 10000,
+  "dy_um": 0.05,
+  "padding_factor": 2,
+  "input_centers_um": [
+    -90.0,
+    -78.0,
+    -66.0,
+    -54.0,
+    -42.0,
+    -30.0,
+    -18.0,
+    -6.0,
+    6.0,
+    18.0,
+    30.0,
+    42.0,
+    54.0,
+    66.0,
+    78.0,
+    90.0
+  ],
+  "input_width_um": 10.0,
+  "output_centers_um": [
+    -90.0,
+    -70.0,
+    -50.0,
+    -30.0,
+    -10.0,
+    10.0,
+    30.0,
+    50.0,
+    70.0,
+    90.0
+  ],
+  "output_width_um": 12.0,
+  "slot_bounds_um": [
+    0.0,
+    2.0
+  ],
+  "interpolation": "linear amplitude and unwrapped phase",
+  "seed": 42,
+  "epochs": 20,
+  "batch_size": 64,
+  "cpu_threads": 4,
+  "optimizer": "Adam",
+  "learning_rate": 0.0008,
+  "weight_decay": 0.0001,
+  "cosine_eta_min": 3e-05,
+  "gradient_clip": 1.0,
+  "input_noise_pi": 0.005,
+  "initialization": "0.5 um + Normal(0,0.02 um), matched across wavelengths",
+  "selection": "minimum validation CE among epochs with maximum validation accuracy",
+  "train_samples": 7200,
+  "val_samples": 1260,
+  "independent_test": false,
+  "caveats": [
+    "Periodic uniform-cell calibration used as a local thin transmission screen; ignores nonlocal coupling/back-reflections and angle dependence.",
+    "Analytic input/output modes, no new wavelength-specific full taper/port FDTD map.",
+    "555 physical groups resolve inconsistent archived 1500-group/500um geometry; not directly comparable to archived 1560nm accuracy.",
+    "Frozen original 16-channel encoding is supervised on coarse labels for the main task.",
+    "Fine task uses a separate training-only 9-label encoder, shared between wavelengths.",
+    "Separate trained masks do not establish a shared dual-wavelength device."
+  ],
+  "requested_seeds": [
+    42,
+    43,
+    44
+  ],
+  "requested_tasks": [
+    "coarse3",
+    "fine9"
+  ],
+  "source_sha256": {
+    "feature_upgrade_20261011\\encoded16.npz": "bedb7f3b03fff785d2ad08a6a7fbc2b8b4c1f4c99323791855d70882946bfe30",
+    "feature_upgrade_20261011\\raw_features.npz": "71b59ad7e5d412fdfd7e3f8400df563abb92c27000d627d859bb70e488cef315",
+    "feature_upgrade_20261011\\diagnostics.json": "6937a07c5f93d84cfbb97f453d0faaef2e467b252dbfa10ed85efeec15a469e6",
+    "map\\shape_spec.json": "9ef793f85b23339d9abec37e8037f322465ac0c1dca4ce2224464bef22c037ce",
+    "calibration_1310_1610nm_20261016\\wl1310nm\\calibration_response.npz": "b581ffec9861912540aceb5737414bd69fb66b46f52b1374054f78860e8512b7",
+    "calibration_1310_1610nm_20261016\\wl1610nm\\calibration_response.npz": "400488fd0fd404c6ef9cb169154f28fa566523e9ce985146c9dd0014622546b8"
+  }
+}

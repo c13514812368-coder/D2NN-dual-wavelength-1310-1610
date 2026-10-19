@@ -1,0 +1,7 @@
+{
+  "train_samples": 7200,
+  "val_samples": 1260,
+  "train_unique_byte_content": 7200,
+  "val_unique_byte_content": 1260,
+  "train_val_shared_exact_image_hashes": 0
+}

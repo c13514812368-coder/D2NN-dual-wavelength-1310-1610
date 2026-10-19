@@ -1,0 +1,50 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+
+# Credentials and machine-specific settings
+*.pem
+*.key
+credentials.json
+secrets.json
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local execution output
+/runtime/
+/reruns/
+*.log
+*.tmp
+*.bak
+
+# Original images are maintained outside Git. Keep dataset documentation.
+/data/**
+!/data/**/
+!/data/**/README.md
+!/data/**/manifest.json
+
+# Lumerical binary projects and generated solver output; retain .lsf source.
+solver_files/
+*.lms
+*.fsp
+*.ldf
+*.mrf
+*.mat
+
+# These original packages each exceed 3 GB. Small checkpoints are retained.
+/map/mapped_network_package.pt
+/train_rich16_1560_20261011/artifacts/trained_network_package.pt
+
+# Large field dump; the analysis script can regenerate it.
+/comparison_1310_1610_scene3_20261016/resolved_grid10000/analysis/propagation_fields.npz

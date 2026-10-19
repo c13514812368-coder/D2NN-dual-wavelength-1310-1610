@@ -1,0 +1,71 @@
+# Managed from YAML by scripts/sync_base_lsf.py.
+# Edit the paired YAML, then re-run the sync helper. The variable block below is auto-managed.
+# >>> AUTO-SYNC VARS BEGIN
+wavelength_m = 7.799999999999999e-07;
+core_h_m = 2.1999999999999998e-07;
+lateral_span_m = 1.32e-06;
+top_cladding_center_z_m = 7.699999999999999e-07;
+bottom_cladding_center_z_m = -7.699999999999999e-07;
+
+top_material_name = '<Object defined dielectric>';
+top_material_index = 1.0;
+top_set_index = true;
+
+bottom_material_name = 'SiO2 (Glass) - Palik';
+bottom_material_index = 1.0;
+bottom_set_index = false;
+
+core_material_name = 'Si (Silicon) - Palik';
+core_material_index = 1.0;
+core_set_index = false;
+# <<< AUTO-SYNC VARS END
+
+switchtolayout;
+selectall; delete;
+redrawoff;
+
+addfde;
+set('solver type', '1D Z:X prop');
+set('mesh cells z', 2000);
+set('x', 0);
+set('y', 0);
+set('z', 0);
+set('z span', 2e-6);
+set('z min bc', 'Metal');
+set('z max bc', 'Metal');
+set('wavelength', wavelength_m);
+set('number of trial modes', 6);
+set('use max index',0);
+set('n',3.4);
+
+addrect;
+set('name', 'cladding_top');
+set('material', top_material_name);
+if (top_set_index) { set('index', top_material_index); }
+set('x span', 2e-6);
+set('y span', lateral_span_m);
+set('z span', lateral_span_m);
+set('z', top_cladding_center_z_m);
+
+addrect;
+set('name', 'cladding_bottom');
+set('material', bottom_material_name);
+if (bottom_set_index) { set('index', bottom_material_index); }
+set('x span', 2e-6);
+set('y span', lateral_span_m);
+set('z span', lateral_span_m);
+set('z', bottom_cladding_center_z_m);
+
+addrect;
+set('name', 'core');
+set('material', core_material_name);
+if (core_set_index) { set('index', core_material_index); }
+set('x span', 2e-6);
+set('y span', lateral_span_m);
+set('z span', core_h_m);
+set('z', 0);
+
+findmodes;
+redrawon;
+E = getresult('FDE::data::mode1','E');
+matlabsave('mode1_E.mat', E);

@@ -1,0 +1,39 @@
+{
+  "accuracy_curve": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/accuracy_curve.png",
+  "confusion_matrix": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/confusion_matrix.png",
+  "delta_phi_histograms": [
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/layer_0_delta_phi_hist.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/layer_1_delta_phi_hist.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/layer_2_delta_phi_hist.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/layer_3_delta_phi_hist.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/layer_4_delta_phi_hist.png"
+  ],
+  "delta_phi_lines": [
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/layer_0_delta_phi.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/layer_1_delta_phi.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/layer_2_delta_phi.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/layer_3_delta_phi.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/layer_4_delta_phi.png"
+  ],
+  "figures_dir": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures",
+  "final_output_grouped_by_physical_port": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/final_output_grouped_by_physical_port.png",
+  "final_output_ports": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/final_output_ports.png",
+  "loss_curve": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/loss_curve.png",
+  "output_by_physical_port_vs_epoch": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/output_by_physical_port_vs_epoch.png",
+  "output_ports_vs_epoch": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/output_ports_vs_epoch.png",
+  "raw_output_ports_vs_epoch": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/raw_output_ports_vs_epoch.png",
+  "reference_field_amplitudes": [
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/reference_layer_0_amplitude.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/reference_layer_1_amplitude.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/reference_layer_2_amplitude.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/reference_layer_3_amplitude.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/reference_layer_4_amplitude.png"
+  ],
+  "reference_field_phases": [
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/reference_layer_0_phase.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/reference_layer_1_phase.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/reference_layer_2_phase.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/reference_layer_3_phase.png",
+    "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures/reference_layer_4_phase.png"
+  ]
+}

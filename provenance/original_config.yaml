@@ -1,0 +1,50 @@
+meta:
+  name: imagenet_sd_scene_3coarse_1560_rich16_20261011
+  seed: 42
+  note: Fixed original train and val; training-only supervised compression; no pretrained CNN.
+
+train:
+  implementation:
+    path: /Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/feature_upgrade_20261011/train_impl.py
+  model:
+    device: cpu
+    cpu_threads: 4
+    reinitialize_parameters: true
+    initcanshu: 0.5
+    monitor_downsample_to: null
+  task:
+    kind: supervised_dataset
+    wavelength_um: 1.56
+  dataset:
+    kind: imagenet_scene_subset_single
+    root: /Users/6t4/Documents/1/scene_cleaning/imagenet_1k_sd_scene_3coarse_fixed
+    encoded_features_path: /Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/feature_upgrade_20261011/encoded16.npz
+    classes: [natural_landform, water_coast, built_environment]
+    train_split: train
+    eval_split: val
+    image_size: 64
+    image_color_mode: rgb
+    feature_kind: rich_lda2_pca14
+    input_low: 0.0
+    input_high: 2.0
+    augment_noise_std: 0.005
+  objective:
+    loss: cross_entropy_prob
+    activation: relu
+    output_transform: port_normalized
+    active_output_dim: 3
+    clamp_min: 0.0
+  optimizer:
+    name: adam
+    lr: 8.0e-4
+    weight_decay: 1.0e-4
+    schedule: cosine
+    gradient_clip_norm: 1.0
+  exploration:
+    enabled: false
+  loop:
+    epochs: 20
+    batch_size: 64
+    log_every: 1
+  constraints:
+    slot_length_min_um: 0.0

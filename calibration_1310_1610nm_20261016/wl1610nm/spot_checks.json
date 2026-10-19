@@ -1,0 +1,23 @@
+[
+  {
+    "label": "mesh8_L0.5",
+    "relative_re": -0.8530250576304702,
+    "relative_im": -0.3631492618700287,
+    "amplitude_difference": 0.0005057491145028514,
+    "phase_difference_pi": -0.002195600832283626
+  },
+  {
+    "label": "mesh8_L2",
+    "relative_re": -0.16151337781310607,
+    "relative_im": 0.798338506394306,
+    "amplitude_difference": 0.00017992556513846125,
+    "phase_difference_pi": -0.003115926673111044
+  },
+  {
+    "label": "duration2ps_L2",
+    "relative_re": -0.16928302537803033,
+    "relative_im": 0.7965432369809302,
+    "amplitude_difference": 0.0,
+    "phase_difference_pi": 0.0
+  }
+]

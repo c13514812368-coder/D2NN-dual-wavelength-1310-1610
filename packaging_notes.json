@@ -1,0 +1,19 @@
+{
+  "source_experiment": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011",
+  "source_map": "/Users/6t4/Desktop/d2nn/configs/experiment/mnist32_dualwavelength_localmap_w500_correct/map",
+  "source_dataset": "/Users/6t4/Documents/1/scene_cleaning/imagenet_1k_sd_scene_3coarse_fixed",
+  "chosen_validation_accuracy": 0.9174603174603174,
+  "train_samples": 7200,
+  "validation_samples": 1260,
+  "wavelength_nm": 1560,
+  "scope": "91.75 percent best 1560 nm coarse-three-class experiment only; no 780 data",
+  "changes": [
+    "Local paths relocated in runtime adapter, feature preparation, prediction and config.",
+    "Original optical source, encoded inputs, encoder, checkpoints and logs are copied unchanged.",
+    "New training writes a timestamped reruns directory; saved experiment is preserved.",
+    "Original absolute paths inside historical artifacts are provenance, not active dependencies."
+  ],
+  "lumerical_required_for_training": false,
+  "original_fdtd_project_files_available": false,
+  "copy_method": "APFS clone where supported, otherwise full independent copy; no symlinks"
+}

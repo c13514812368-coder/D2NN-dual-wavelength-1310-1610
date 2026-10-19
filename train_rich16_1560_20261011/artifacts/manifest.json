@@ -1,0 +1,20 @@
+{
+  "best_checkpoint": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/checkpoints/best_model.pt",
+  "eval_metrics": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/eval_metrics.json",
+  "figures_dir": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/figures",
+  "final_checkpoint": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/checkpoints/final_model.pt",
+  "map_dir": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/map",
+  "mapped_network_package": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/map/mapped_network_package.pt",
+  "mapped_network_package_used_for_training_signature": "25acde58ea10b8ec116fb52728d2be9b509c64ec92ddfc034eb9d52a072a2056",
+  "previous_artifacts_backup": null,
+  "train_bundle_dir": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011",
+  "train_config_path": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/config.yaml",
+  "train_implementation_module": null,
+  "train_implementation_path": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/feature_upgrade_20261011/train_impl.py",
+  "train_implementation_source": "config_path",
+  "train_metrics": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/train_metrics.json",
+  "train_script_path": null,
+  "trained_network_package": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/trained_network_package.pt",
+  "visualization_manifest": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/train_rich16_1560_20261011/artifacts/visualization_manifest.json",
+  "workspace_dir": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560"
+}

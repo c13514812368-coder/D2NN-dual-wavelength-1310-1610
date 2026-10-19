@@ -1,0 +1,17 @@
+switchtolayout; selectall; delete;
+addfde;
+set('solver type','1D Z:X prop');
+set('z span',3e-6); set('mesh cells z',2000);
+set('z min bc','Metal'); set('z max bc','Metal');
+set('wavelength',1610e-9);
+set('number of trial modes',6);
+set('use max index',0); set('n',3.0);
+addrect; set('name','substrate');
+set('material','SiO2 (Glass) - Palik');
+set('x span',2e-6); set('y span',2e-6);
+set('z',-1.11e-6); set('z span',2e-6);
+addrect; set('name','core');
+set('material','Si (Silicon) - Palik');
+set('x span',2e-6); set('y span',2e-6);
+set('z',0); set('z span',.22e-6);
+findmodes;

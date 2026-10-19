@@ -1,0 +1,60 @@
+{
+  "wavelength_nm": 1310,
+  "silicon_n_real": 3.5068525745481187,
+  "silicon_n_imag": 0.0,
+  "neff_real": 2.9829750224356006,
+  "neff_imag": 0.0,
+  "TE_Ey_fraction": 1.0,
+  "mode_loss_db_per_m": 0.0,
+  "estimated_500um_loss_db": 0.0,
+  "mesh_1000_2000_neff_abs_delta": 7.442297651039098e-06,
+  "boundary_3um_4um_neff_abs_delta": 3.204591269723167e-05,
+  "mode_field_finite": true,
+  "mapping_factor_um_per_pi": -0.43299825885876075,
+  "phase_slope_pi_per_um": -2.3094781088396683,
+  "phase_intercept_pi": 0.03876967462485856,
+  "linear_fit_r2": 0.9996516743413332,
+  "max_phase_residual_pi": 0.04162962253182556,
+  "relative_amplitude_min": 0.8010854950453339,
+  "relative_amplitude_max": 1.0,
+  "phase_step_max_pi": 0.2727344695024746,
+  "baseline_transfer_abs": 1.000327483200961,
+  "baseline_predicted_abs": 1.0,
+  "baseline_relative_error": 0.0003274832009609874,
+  "monitor_wavelength_nm": 1310.0,
+  "linear_phase_only_fit_acceptable": false,
+  "response_normalization": "output_field / no_slot_output_field, identical source",
+  "max_spot_check_phase_difference_pi": 0.002351446695515342,
+  "max_spot_check_amplitude_difference": 0.0003089436986635219,
+  "spot_check_thresholds": {
+    "phase_pi": 0.02,
+    "amplitude": 0.03
+  },
+  "spot_checks_acceptable": true,
+  "spot_checks": [
+    {
+      "label": "mesh8_L0.5",
+      "relative_re": -0.9440803165531371,
+      "relative_im": 0.3124955168873671,
+      "amplitude_difference": -1.9378023437544023e-05,
+      "phase_difference_pi": 0.0011994321204365588
+    },
+    {
+      "label": "mesh8_L2",
+      "relative_re": -0.16225599474080588,
+      "relative_im": -0.7992841755138911,
+      "amplitude_difference": 0.0003089436986635219,
+      "phase_difference_pi": 0.002351446695515342
+    },
+    {
+      "label": "duration2ps_L2",
+      "relative_re": -0.1680923584921365,
+      "relative_im": -0.7977614396376125,
+      "amplitude_difference": 0.0,
+      "phase_difference_pi": -0.0
+    }
+  ],
+  "analytic_fallback_used": false,
+  "scope": "TE slab mode and periodic local slot response; full network map/training not run",
+  "completed_at": "2026-10-16T20:09:44.189781+08:00"
+}

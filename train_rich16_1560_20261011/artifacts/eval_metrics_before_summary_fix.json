@@ -1,0 +1,379 @@
+{
+  "best_epoch": 9,
+  "best_eval_accuracy": 0.9174603174603174,
+  "best_eval_accuracy_1.56": 0.9079365079365079,
+  "best_eval_accuracy_combined": 0.9174603174603174,
+  "best_eval_accuracy_combined_epoch": 3,
+  "best_selection_metric": -0.9174603174603174,
+  "class_names": [
+    "natural_landform",
+    "water_coast",
+    "built_environment",
+    "unused_port_3",
+    "unused_port_4",
+    "unused_port_5",
+    "unused_port_6",
+    "unused_port_7",
+    "unused_port_8",
+    "unused_port_9"
+  ],
+  "dataset_kind": "imagenet_scene_subset_single",
+  "dataset_summary": {
+    "class_names_active": [
+      "natural_landform",
+      "water_coast",
+      "built_environment"
+    ],
+    "class_names_padded": [
+      "natural_landform",
+      "water_coast",
+      "built_environment",
+      "unused_port_3",
+      "unused_port_4",
+      "unused_port_5",
+      "unused_port_6",
+      "unused_port_7",
+      "unused_port_8",
+      "unused_port_9"
+    ],
+    "dataset_name": "imagenet_scene_subset_single",
+    "encoded_features_path": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/feature_upgrade_20261011/encoded16.npz",
+    "encoder_fit_split": "train_only",
+    "encoder_path": "/Users/6t4/Documents/1/d2nn_runs/imagenet_sd_scene_3coarse_1560/feature_upgrade_20261011/encoder.joblib",
+    "eval_counts_used": {
+      "built_environment": 420,
+      "natural_landform": 420,
+      "water_coast": 420
+    },
+    "eval_samples": 1260,
+    "eval_split": "/Users/6t4/Documents/1/scene_cleaning/imagenet_1k_sd_scene_3coarse_fixed/val",
+    "feature_kind": "rich_kernel_lda2_pca14",
+    "feature_pool_dim": 568,
+    "image_color_mode": "rgb",
+    "image_size": [
+      64,
+      64
+    ],
+    "input_train_max": 1.7999999523162842,
+    "input_train_mean": 0.9565000534057617,
+    "input_train_min": 0.20000000298023224,
+    "input_train_std": 0.3095455467700958,
+    "no_pretrained_network": true,
+    "path_hash": {
+      "train": "1202e9be0ddecc12c68ffe4667b5d6658e2bc7a68d015ab2eba16006144a78f2",
+      "val": "8a66ec34f41b7df2aef59e4da56207a2d7ee068c829fa8ddcd284005a6f19232"
+    },
+    "pca_components": 16,
+    "root": "/Users/6t4/Documents/1/scene_cleaning/imagenet_1k_sd_scene_3coarse_fixed",
+    "split_source": "explicit_train_val_dirs",
+    "train_counts_used": {
+      "built_environment": 2400,
+      "natural_landform": 2400,
+      "water_coast": 2400
+    },
+    "train_samples": 7200,
+    "train_split": "/Users/6t4/Documents/1/scene_cleaning/imagenet_1k_sd_scene_3coarse_fixed/train"
+  },
+  "decision_rule": "predicted_class = argmax(port_normalized_output)",
+  "decision_rule_combined": "single-wavelength output is reused as combined output for compatibility",
+  "epochs": 21,
+  "eval_samples": 1260,
+  "final_confusion_matrix_by_wavelength": {
+    "1.56": [
+      [
+        375,
+        25,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        39,
+        373,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        5,
+        399,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "final_confusion_matrix_combined": [
+    [
+      375,
+      25,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      39,
+      373,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      16,
+      5,
+      399,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "final_eval_accuracy": 0.9103174603174603,
+  "final_eval_accuracy_1.56": 0.9103174603174603,
+  "final_eval_accuracy_combined": 0.9103174603174603,
+  "final_eval_loss": 0.28803205158975387,
+  "input_dim_per_wavelength": 16,
+  "monitor_samples_used": 11292,
+  "output_dim": 10,
+  "pca_explained_variance_ratio_sum": 0.0,
+  "reference_prediction_by_wavelength": {
+    "1.56": [
+      0.7782931327819824,
+      0.17613953351974487,
+      0.045567337423563004,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "reference_prediction_combined": [
+    0.7782931327819824,
+    0.17613953351974487,
+    0.045567337423563004,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_target": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "requested_monitor_downsample_to": null,
+  "task_kind": "supervised_dataset",
+  "task_wavelengths_um": [
+    1.56
+  ],
+  "train_samples": 7200
+}

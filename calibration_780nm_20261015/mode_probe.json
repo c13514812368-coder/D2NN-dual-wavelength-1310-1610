@@ -1,0 +1,15 @@
+{
+  "wavelength_nm": 780,
+  "solver_wavelength_m": 7.8e-07,
+  "silicon_n_real": 3.7092907955611487,
+  "silicon_n_imag": 0.007477055859629959,
+  "neff_real": 3.4622040905679805,
+  "neff_imag": 0.007708166693202396,
+  "mode_loss_db_per_m": 539325.1470603389,
+  "estimated_500um_material_mode_loss_db": 269.6625735301694,
+  "solver_dir": "C:\\Users\\c1351\\AppData\\Local\\Temp\\d2nn_780nm_l_m7fj_w",
+  "mode_field_finite": true,
+  "neff_1000_cells_real": 3.4621763607417346,
+  "neff_1000_cells_imag": 0.00770809762740003,
+  "neff_mesh_convergence_abs_delta": 2.7729912255754226e-05
+}

@@ -1,0 +1,46 @@
+{
+  "wavelength_nm": 1560,
+  "best_epoch": 9,
+  "baseline_best_val_accuracy": 0.7904761904761904,
+  "best_val_accuracy": 0.9174603174603174,
+  "best_checkpoint_noiseless_train_accuracy": 0.9165277777777778,
+  "train_online_accuracy_at_best_epoch": 0.9138888888888889,
+  "final_epoch": 20,
+  "final_val_accuracy": 0.9103174603174603,
+  "final_online_train_accuracy": 0.9161111111111111,
+  "improvement_percentage_points": 12.698412698412698,
+  "classes": [
+    "natural_landform",
+    "water_coast",
+    "built_environment"
+  ],
+  "class_recall": [
+    0.8785714285714286,
+    0.9166666666666666,
+    0.9571428571428572
+  ],
+  "confusion_matrix": [
+    [
+      369,
+      30,
+      21
+    ],
+    [
+      26,
+      385,
+      9
+    ],
+    [
+      11,
+      7,
+      402
+    ]
+  ],
+  "train_samples": 7200,
+  "val_samples": 1260,
+  "independent_test_set": null,
+  "full_optical_sampling": 11292,
+  "preprocessing": "rich_kernel_lda2_pca14",
+  "encoder_trained_on": "training split only",
+  "pretrained_cnn": false
+}

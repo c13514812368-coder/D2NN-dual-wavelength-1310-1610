@@ -1,0 +1,144 @@
+{
+  "coarse3": {
+    "1310": {
+      "mean_accuracy": 0.9084656084656085,
+      "sample_sd": 0.00641500299099582,
+      "seed_accuracies": [
+        0.9047619047619048,
+        0.9047619047619048,
+        0.9158730158730158
+      ],
+      "final_epoch_mean_accuracy": 0.9066137566137566,
+      "mean_active_collection_fraction": 0.006405352149158716,
+      "per_class_recall_mean": {
+        "natural_landform": 0.8912698412698412,
+        "water_coast": 0.8793650793650793,
+        "built_environment": 0.9547619047619048
+      }
+    },
+    "1610": {
+      "mean_accuracy": 0.9084656084656085,
+      "sample_sd": 0.0009164289987136884,
+      "seed_accuracies": [
+        0.9079365079365079,
+        0.9095238095238095,
+        0.9079365079365079
+      ],
+      "final_epoch_mean_accuracy": 0.9058201058201059,
+      "mean_active_collection_fraction": 0.010270604863762856,
+      "per_class_recall_mean": {
+        "natural_landform": 0.8976190476190476,
+        "water_coast": 0.8793650793650793,
+        "built_environment": 0.9484126984126983
+      }
+    },
+    "paired_by_seed": [
+      {
+        "seed": 42,
+        "only_1310_correct": 9,
+        "only_1610_correct": 13,
+        "paired_delta_1610_minus_1310": 0.0031746031746031633,
+        "exact_mcnemar_p": 0.5234670639038086
+      },
+      {
+        "seed": 43,
+        "only_1310_correct": 4,
+        "only_1610_correct": 10,
+        "paired_delta_1610_minus_1310": 0.004761904761904745,
+        "exact_mcnemar_p": 0.1795654296875
+      },
+      {
+        "seed": 44,
+        "only_1310_correct": 21,
+        "only_1610_correct": 11,
+        "paired_delta_1610_minus_1310": -0.007936507936507908,
+        "exact_mcnemar_p": 0.11018416518345475
+      }
+    ],
+    "caution": "Exploratory validation comparisons, checkpoint selection on same validation; no independent test and no multiple-comparison correction. Seeds are not independent samples of the validation set."
+  },
+  "fine9": {
+    "1310": {
+      "mean_accuracy": 0.7981481481481483,
+      "sample_sd": 0.006749921069932876,
+      "seed_accuracies": [
+        0.7912698412698412,
+        0.7984126984126985,
+        0.8047619047619048
+      ],
+      "final_epoch_mean_accuracy": 0.7968253968253968,
+      "mean_active_collection_fraction": 0.005531815501550834,
+      "per_class_recall_mean": {
+        "n09193705_alp": 0.6,
+        "n09468604_valley": 0.8714285714285714,
+        "n09472597_volcano": 0.8333333333333334,
+        "n09256479_coral_reef": 0.9452380952380951,
+        "n09332890_lakeside": 0.7428571428571429,
+        "n09428293_seashore": 0.7166666666666667,
+        "n03028079_church": 0.85,
+        "n02980441_castle": 0.7833333333333333,
+        "n03661043_library": 0.8404761904761905
+      },
+      "within_true_coarse_fine_accuracy_mean": 0.864021164021164,
+      "coarse_from_9ports_accuracy_mean": 0.9,
+      "within_true_coarse_per_group_mean": {
+        "natural_landform": 0.85,
+        "water_coast": 0.8603174603174604,
+        "built_environment": 0.8817460317460317
+      }
+    },
+    "1610": {
+      "mean_accuracy": 0.8092592592592593,
+      "sample_sd": 0.003304231745184326,
+      "seed_accuracies": [
+        0.8119047619047619,
+        0.8103174603174603,
+        0.8055555555555556
+      ],
+      "final_epoch_mean_accuracy": 0.8082010582010583,
+      "mean_active_collection_fraction": 0.007443988850961129,
+      "per_class_recall_mean": {
+        "n09193705_alp": 0.638095238095238,
+        "n09468604_valley": 0.8690476190476191,
+        "n09472597_volcano": 0.830952380952381,
+        "n09256479_coral_reef": 0.9428571428571427,
+        "n09332890_lakeside": 0.730952380952381,
+        "n09428293_seashore": 0.730952380952381,
+        "n03028079_church": 0.8428571428571429,
+        "n02980441_castle": 0.8261904761904763,
+        "n03661043_library": 0.8714285714285714
+      },
+      "within_true_coarse_fine_accuracy_mean": 0.8682539682539683,
+      "coarse_from_9ports_accuracy_mean": 0.9052910052910054,
+      "within_true_coarse_per_group_mean": {
+        "natural_landform": 0.85,
+        "water_coast": 0.8650793650793651,
+        "built_environment": 0.8896825396825396
+      }
+    },
+    "paired_by_seed": [
+      {
+        "seed": 42,
+        "only_1310_correct": 13,
+        "only_1610_correct": 39,
+        "paired_delta_1610_minus_1310": 0.020634920634920673,
+        "exact_mcnemar_p": 0.0004095414537825804
+      },
+      {
+        "seed": 43,
+        "only_1310_correct": 18,
+        "only_1610_correct": 33,
+        "paired_delta_1610_minus_1310": 0.011904761904761862,
+        "exact_mcnemar_p": 0.04887389231827033
+      },
+      {
+        "seed": 44,
+        "only_1310_correct": 22,
+        "only_1610_correct": 23,
+        "paired_delta_1610_minus_1310": 0.0007936507936507908,
+        "exact_mcnemar_p": 1.0
+      }
+    ],
+    "caution": "Exploratory validation comparisons, checkpoint selection on same validation; no independent test and no multiple-comparison correction. Seeds are not independent samples of the validation set."
+  }
+}

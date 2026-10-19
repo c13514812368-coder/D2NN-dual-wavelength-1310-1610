@@ -1,0 +1,146 @@
+[
+  {
+    "task": "coarse3",
+    "wavelength_nm": 1310,
+    "seed": 42,
+    "length_noise_sigma_nm": 5.0,
+    "accuracies": [
+      0.9007936507936508,
+      0.903968253968254,
+      0.9047619047619048
+    ],
+    "mean_accuracy": 0.9031746031746032
+  },
+  {
+    "task": "coarse3",
+    "wavelength_nm": 1310,
+    "seed": 42,
+    "length_noise_sigma_nm": 10.0,
+    "accuracies": [
+      0.8992063492063492,
+      0.9063492063492063,
+      0.8976190476190476
+    ],
+    "mean_accuracy": 0.9010582010582011
+  },
+  {
+    "task": "coarse3",
+    "wavelength_nm": 1310,
+    "seed": 42,
+    "length_noise_sigma_nm": 20.0,
+    "accuracies": [
+      0.8888888888888888,
+      0.9007936507936508,
+      0.8920634920634921
+    ],
+    "mean_accuracy": 0.8939153439153439
+  },
+  {
+    "task": "coarse3",
+    "wavelength_nm": 1610,
+    "seed": 42,
+    "length_noise_sigma_nm": 5.0,
+    "accuracies": [
+      0.9055555555555556,
+      0.9047619047619048,
+      0.9031746031746032
+    ],
+    "mean_accuracy": 0.9044973544973546
+  },
+  {
+    "task": "coarse3",
+    "wavelength_nm": 1610,
+    "seed": 42,
+    "length_noise_sigma_nm": 10.0,
+    "accuracies": [
+      0.903968253968254,
+      0.9071428571428571,
+      0.9015873015873016
+    ],
+    "mean_accuracy": 0.9042328042328043
+  },
+  {
+    "task": "coarse3",
+    "wavelength_nm": 1610,
+    "seed": 42,
+    "length_noise_sigma_nm": 20.0,
+    "accuracies": [
+      0.8912698412698413,
+      0.8992063492063492,
+      0.8936507936507937
+    ],
+    "mean_accuracy": 0.8947089947089948
+  },
+  {
+    "task": "fine9",
+    "wavelength_nm": 1310,
+    "seed": 42,
+    "length_noise_sigma_nm": 5.0,
+    "accuracies": [
+      0.7936507936507936,
+      0.7944444444444444,
+      0.7904761904761904
+    ],
+    "mean_accuracy": 0.7928571428571428
+  },
+  {
+    "task": "fine9",
+    "wavelength_nm": 1310,
+    "seed": 42,
+    "length_noise_sigma_nm": 10.0,
+    "accuracies": [
+      0.7865079365079365,
+      0.7936507936507936,
+      0.7873015873015873
+    ],
+    "mean_accuracy": 0.7891534391534392
+  },
+  {
+    "task": "fine9",
+    "wavelength_nm": 1310,
+    "seed": 42,
+    "length_noise_sigma_nm": 20.0,
+    "accuracies": [
+      0.7619047619047619,
+      0.7611111111111111,
+      0.7238095238095238
+    ],
+    "mean_accuracy": 0.7489417989417989
+  },
+  {
+    "task": "fine9",
+    "wavelength_nm": 1610,
+    "seed": 42,
+    "length_noise_sigma_nm": 5.0,
+    "accuracies": [
+      0.8119047619047619,
+      0.8182539682539682,
+      0.8095238095238095
+    ],
+    "mean_accuracy": 0.8132275132275133
+  },
+  {
+    "task": "fine9",
+    "wavelength_nm": 1610,
+    "seed": 42,
+    "length_noise_sigma_nm": 10.0,
+    "accuracies": [
+      0.8158730158730159,
+      0.803968253968254,
+      0.803968253968254
+    ],
+    "mean_accuracy": 0.8079365079365081
+  },
+  {
+    "task": "fine9",
+    "wavelength_nm": 1610,
+    "seed": 42,
+    "length_noise_sigma_nm": 20.0,
+    "accuracies": [
+      0.8,
+      0.7857142857142857,
+      0.8047619047619048
+    ],
+    "mean_accuracy": 0.796825396825397
+  }
+]

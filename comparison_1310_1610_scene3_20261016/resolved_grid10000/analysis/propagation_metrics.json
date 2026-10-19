@@ -1,0 +1,246 @@
+{
+  "1310": {
+    "neff": 2.9829750224356006,
+    "slab_wavelength_um": 0.4391588900836268,
+    "propagating_cutoff_cycles_per_um": 2.277080169798168,
+    "input_note": "First validation landform sample, exactly identical 16-channel phases at both wavelengths.",
+    "same_physical_mask": {
+      "planes": [
+        {
+          "total_scalar_power": 1.0,
+          "centroid_um": -8.583405985973513e-08,
+          "intensity_sigma_um": 55.34679079261984,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.0012267415877431631
+        },
+        {
+          "total_scalar_power": 0.9999987483024597,
+          "centroid_um": 1.014669228638354e-05,
+          "intensity_sigma_um": 55.41559210375416,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.0012254505418241024
+        },
+        {
+          "total_scalar_power": 0.9589325189590454,
+          "centroid_um": 0.22163723965156734,
+          "intensity_sigma_um": 55.80328119388708,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.007831989787518978
+        },
+        {
+          "total_scalar_power": 0.9176502227783203,
+          "centroid_um": 0.3168010999372264,
+          "intensity_sigma_um": 56.77597245692216,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.01588275656104088
+        },
+        {
+          "total_scalar_power": 0.8813980221748352,
+          "centroid_um": 0.31072740239928365,
+          "intensity_sigma_um": 58.56906163419196,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.023255180567502975
+        }
+      ],
+      "output_ports": [
+        0.008869173936545849,
+        0.03621874749660492,
+        0.019814519211649895,
+        0.01467196736484766,
+        0.05305754765868187,
+        0.022624189034104347,
+        0.05014152079820633,
+        0.025183076038956642,
+        0.04040404409170151,
+        0.020117109641432762
+      ]
+    },
+    "separately_trained_mask": {
+      "planes": [
+        {
+          "total_scalar_power": 1.0,
+          "centroid_um": -8.583405985973513e-08,
+          "intensity_sigma_um": 55.34679079261984,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.0012267415877431631
+        },
+        {
+          "total_scalar_power": 0.9999987483024597,
+          "centroid_um": 1.014669228638354e-05,
+          "intensity_sigma_um": 55.41559210375416,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.0012254505418241024
+        },
+        {
+          "total_scalar_power": 0.7836419939994812,
+          "centroid_um": 0.731627058663161,
+          "intensity_sigma_um": 63.76607338980714,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.3735683560371399
+        },
+        {
+          "total_scalar_power": 0.596773624420166,
+          "centroid_um": -0.663666539191091,
+          "intensity_sigma_um": 93.51721234520818,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.6249359250068665
+        },
+        {
+          "total_scalar_power": 0.5176483988761902,
+          "centroid_um": 5.982619343273576,
+          "intensity_sigma_um": 130.82116603919525,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.7084881663322449
+        }
+      ],
+      "output_ports": [
+        0.0025633452460169792,
+        0.0018902439624071121,
+        0.000405720726121217,
+        0.002888237591832876,
+        0.001986628631129861,
+        0.0018372393678873777,
+        0.001971333520486951,
+        0.0020173604134470224,
+        0.00029701864696107805,
+        0.0005842633545398712
+      ]
+    },
+    "single_gaussian_no_slots_sigma0_1um": [
+      {
+        "distance_um": 0.0,
+        "total_scalar_power": 1.0,
+        "centroid_um": 5.551115123125783e-17,
+        "intensity_sigma_um": 1.0000000020933284,
+        "spectral_fraction_above_0p25_cycles_per_um": 0.0016444992506876588
+      },
+      {
+        "distance_um": 125.0,
+        "total_scalar_power": 1.000000238418579,
+        "centroid_um": -1.6428189808515015e-07,
+        "intensity_sigma_um": 4.489233391384601,
+        "spectral_fraction_above_0p25_cycles_per_um": 0.0016444992506876588
+      },
+      {
+        "distance_um": 500.0,
+        "total_scalar_power": 1.0000001192092896,
+        "centroid_um": -7.2628890457338e-07,
+        "intensity_sigma_um": 17.534294853415815,
+        "spectral_fraction_above_0p25_cycles_per_um": 0.0016444993671029806
+      }
+    ]
+  },
+  "1610": {
+    "neff": 2.7957676290407423,
+    "slab_wavelength_um": 0.5758704633662306,
+    "propagating_cutoff_cycles_per_um": 1.7365016329445604,
+    "input_note": "First validation landform sample, exactly identical 16-channel phases at both wavelengths.",
+    "same_physical_mask": {
+      "planes": [
+        {
+          "total_scalar_power": 1.0,
+          "centroid_um": -8.583405985973513e-08,
+          "intensity_sigma_um": 55.34679079261984,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.0012267415877431631
+        },
+        {
+          "total_scalar_power": 0.9999971389770508,
+          "centroid_um": -2.8473307025933536e-05,
+          "intensity_sigma_um": 55.465497278071545,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.001223800121806562
+        },
+        {
+          "total_scalar_power": 0.855450451374054,
+          "centroid_um": -0.016362613760147582,
+          "intensity_sigma_um": 56.10661049065356,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.005538307595998049
+        },
+        {
+          "total_scalar_power": 0.7302457094192505,
+          "centroid_um": -0.22077603086260567,
+          "intensity_sigma_um": 57.379204735912964,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.01063963770866394
+        },
+        {
+          "total_scalar_power": 0.6225781440734863,
+          "centroid_um": -0.09973215383583778,
+          "intensity_sigma_um": 59.128043704894594,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.016538647934794426
+        }
+      ],
+      "output_ports": [
+        0.010265572927892208,
+        0.02698453888297081,
+        0.012876826338469982,
+        0.005895745940506458,
+        0.03305625542998314,
+        0.015349139459431171,
+        0.03867737576365471,
+        0.029559418559074402,
+        0.033626195043325424,
+        0.007172028534114361
+      ]
+    },
+    "separately_trained_mask": {
+      "planes": [
+        {
+          "total_scalar_power": 1.0,
+          "centroid_um": -8.583405985973513e-08,
+          "intensity_sigma_um": 55.34679079261984,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.0012267415877431631
+        },
+        {
+          "total_scalar_power": 0.9999971389770508,
+          "centroid_um": -2.8473307025933536e-05,
+          "intensity_sigma_um": 55.465497278071545,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.001223800121806562
+        },
+        {
+          "total_scalar_power": 0.7760165333747864,
+          "centroid_um": 0.18113775141961597,
+          "intensity_sigma_um": 75.70170293626768,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.36513692140579224
+        },
+        {
+          "total_scalar_power": 0.5965076684951782,
+          "centroid_um": -3.148688768909132,
+          "intensity_sigma_um": 104.09606020707521,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.5079935193061829
+        },
+        {
+          "total_scalar_power": 0.4931735098361969,
+          "centroid_um": 1.8353547394624528,
+          "intensity_sigma_um": 128.7558666271799,
+          "spectral_fraction_above_0p25_cycles_per_um": 0.559553861618042
+        }
+      ],
+      "output_ports": [
+        0.003887251252308488,
+        0.005237572360783815,
+        0.0021237139590084553,
+        0.0017717916052788496,
+        0.006631971336901188,
+        0.0031056858133524656,
+        0.008527015335857868,
+        0.0018143170746043324,
+        0.00027689721900969744,
+        0.00018571408872958273
+      ]
+    },
+    "single_gaussian_no_slots_sigma0_1um": [
+      {
+        "distance_um": 0.0,
+        "total_scalar_power": 1.0,
+        "centroid_um": 5.551115123125783e-17,
+        "intensity_sigma_um": 1.0000000020933284,
+        "spectral_fraction_above_0p25_cycles_per_um": 0.0016444992506876588
+      },
+      {
+        "distance_um": 125.0,
+        "total_scalar_power": 1.000000238418579,
+        "centroid_um": -2.7782302058909636e-07,
+        "intensity_sigma_um": 5.832857887445852,
+        "spectral_fraction_above_0p25_cycles_per_um": 0.0016444992506876588
+      },
+      {
+        "distance_um": 500.0,
+        "total_scalar_power": 1.0,
+        "centroid_um": -1.0607755420721787e-06,
+        "intensity_sigma_um": 23.007733524620335,
+        "spectral_fraction_above_0p25_cycles_per_um": 0.0016444993671029806
+      }
+    ]
+  },
+  "same_mask_output_intensity_pearson": 0.8599961510604563,
+  "same_mask_output_complex_fidelity": 0.7438549995422363
+}

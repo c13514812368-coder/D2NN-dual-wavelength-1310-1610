@@ -1,0 +1,46 @@
+[
+  {
+    "task": "coarse3",
+    "trained_wavelength_nm": 1310,
+    "evaluated_wavelength_nm": 1610,
+    "validation": {
+      "accuracy": 0.44206349206349205,
+      "ce": 1.1921807527542114,
+      "mean_active_collection_fraction": 0.007834650576114655,
+      "mean_10port_collection_fraction": 0.030676133930683136
+    }
+  },
+  {
+    "task": "coarse3",
+    "trained_wavelength_nm": 1610,
+    "evaluated_wavelength_nm": 1310,
+    "validation": {
+      "accuracy": 0.34206349206349207,
+      "ce": 1.6268354654312134,
+      "mean_active_collection_fraction": 0.003347628517076373,
+      "mean_10port_collection_fraction": 0.01417606882750988
+    }
+  },
+  {
+    "task": "fine9",
+    "trained_wavelength_nm": 1310,
+    "evaluated_wavelength_nm": 1610,
+    "validation": {
+      "accuracy": 0.31507936507936507,
+      "ce": 1.919276237487793,
+      "mean_active_collection_fraction": 0.025697290897369385,
+      "mean_10port_collection_fraction": 0.03845128417015076
+    }
+  },
+  {
+    "task": "fine9",
+    "trained_wavelength_nm": 1610,
+    "evaluated_wavelength_nm": 1310,
+    "validation": {
+      "accuracy": 0.16587301587301587,
+      "ce": 2.5962157249450684,
+      "mean_active_collection_fraction": 0.011891508474946022,
+      "mean_10port_collection_fraction": 0.021856050938367844
+    }
+  }
+]

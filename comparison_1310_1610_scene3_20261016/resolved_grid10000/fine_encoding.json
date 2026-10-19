@@ -1,0 +1,10 @@
+{
+  "fit": "train_only",
+  "labels": "nine fine subclasses",
+  "components": "RBF384 -> LDA8 + standardized raw PCA8",
+  "phase_pi_range": [
+    0.2,
+    1.8
+  ],
+  "selection": "predeclared; no validation hyperparameter search"
+}

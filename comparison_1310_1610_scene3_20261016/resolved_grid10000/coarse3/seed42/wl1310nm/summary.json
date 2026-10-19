@@ -1,0 +1,85 @@
+{
+  "task": "coarse3",
+  "wavelength_nm": 1310,
+  "seed": 42,
+  "epochs": 20,
+  "best_epoch": 13,
+  "best_validation": {
+    "accuracy": 0.9047619047619048,
+    "ce": 0.3409227728843689,
+    "mean_active_collection_fraction": 0.006566298194229603,
+    "mean_10port_collection_fraction": 0.018486369401216507
+  },
+  "final_validation": {
+    "accuracy": 0.9023809523809524,
+    "ce": 0.33906176686286926,
+    "mean_active_collection_fraction": 0.0062883892096579075,
+    "mean_10port_collection_fraction": 0.018154248595237732
+  },
+  "best_training": {
+    "accuracy": 0.9020833333333333,
+    "ce": 0.3397839367389679,
+    "mean_active_collection_fraction": 0.006562058813869953,
+    "mean_10port_collection_fraction": 0.01847430132329464
+  },
+  "classes": [
+    "natural_landform",
+    "water_coast",
+    "built_environment"
+  ],
+  "confusion_matrix": [
+    [
+      371,
+      28,
+      21
+    ],
+    [
+      35,
+      368,
+      17
+    ],
+    [
+      13,
+      6,
+      401
+    ]
+  ],
+  "classification_report": {
+    "natural_landform": {
+      "precision": 0.8854415274463007,
+      "recall": 0.8833333333333333,
+      "f1-score": 0.8843861740166865,
+      "support": 420.0
+    },
+    "water_coast": {
+      "precision": 0.9154228855721394,
+      "recall": 0.8761904761904762,
+      "f1-score": 0.8953771289537713,
+      "support": 420.0
+    },
+    "built_environment": {
+      "precision": 0.9134396355353075,
+      "recall": 0.9547619047619048,
+      "f1-score": 0.9336437718277066,
+      "support": 420.0
+    },
+    "accuracy": 0.9047619047619048,
+    "macro avg": {
+      "precision": 0.9047680161845825,
+      "recall": 0.9047619047619048,
+      "f1-score": 0.9044690249327214,
+      "support": 1260.0
+    },
+    "weighted avg": {
+      "precision": 0.9047680161845825,
+      "recall": 0.9047619047619048,
+      "f1-score": 0.9044690249327214,
+      "support": 1260.0
+    }
+  },
+  "slot_min_um": 0.0,
+  "slot_max_um": 0.9972357749938965,
+  "elapsed_s": 176.34218549728394,
+  "model_kind": "calibrated scalar angular spectrum; analytic cosine apertures",
+  "whole_device_fdtd": false
+}
